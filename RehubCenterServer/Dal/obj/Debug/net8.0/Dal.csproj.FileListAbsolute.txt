@@ -1,0 +1,14 @@
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\bin\Debug\net8.0\Dal.deps.json
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\bin\Debug\net8.0\Dal.runtimeconfig.json
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\bin\Debug\net8.0\Dal.dll
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\bin\Debug\net8.0\Dal.pdb
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.csproj.AssemblyReference.cache
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.AssemblyInfoInputs.cache
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.AssemblyInfo.cs
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.csproj.CoreCompileInputs.cache
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.dll
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\refint\Dal.dll
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.pdb
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.genruntimeconfig.cache
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\ref\Dal.dll
