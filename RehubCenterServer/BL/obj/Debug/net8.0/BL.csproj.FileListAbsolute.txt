@@ -13,3 +13,35 @@ H:\C#\פרוייקט סופי\RehubCenterServer\BL\obj\Debug\net8.0\BL.dll
 H:\C#\פרוייקט סופי\RehubCenterServer\BL\obj\Debug\net8.0\refint\BL.dll
 H:\C#\פרוייקט סופי\RehubCenterServer\BL\obj\Debug\net8.0\BL.pdb
 H:\C#\פרוייקט סופי\RehubCenterServer\BL\obj\Debug\net8.0\ref\BL.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\bin\Debug\net8.0\BL.deps.json
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\bin\Debug\net8.0\BL.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\bin\Debug\net8.0\BL.pdb
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\bin\Debug\net8.0\Dal.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\bin\Debug\net8.0\Dal.pdb
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.csproj.AssemblyReference.cache
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.AssemblyInfoInputs.cache
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.AssemblyInfo.cs
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.csproj.CoreCompileInputs.cache
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.sourcelink.json
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.csproj.Up2Date
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\refint\BL.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.pdb
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\ref\BL.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\bin\Debug\net8.0\BL.deps.json
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\bin\Debug\net8.0\BL.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\bin\Debug\net8.0\BL.pdb
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\bin\Debug\net8.0\Dal.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\bin\Debug\net8.0\Dal.pdb
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.csproj.AssemblyReference.cache
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.AssemblyInfoInputs.cache
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.AssemblyInfo.cs
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.csproj.CoreCompileInputs.cache
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.sourcelink.json
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.csproj.Up2Date
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\refint\BL.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\BL.pdb
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\BL\obj\Debug\net8.0\ref\BL.dll

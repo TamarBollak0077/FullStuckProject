@@ -165,3 +165,337 @@ H:\C#\פרוייקט סופי\RehubCenterServer\RehubCenterServer\obj\Debug\net8
 H:\C#\פרוייקט סופי\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.pdb
 H:\C#\פרוייקט סופי\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.genruntimeconfig.cache
 H:\C#\פרוייקט סופי\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\ref\RehubCenterServer.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\appsettings.Development.json
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\appsettings.json
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\RehubCenterServer.staticwebassets.endpoints.json
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\RehubCenterServer.exe
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\RehubCenterServer.deps.json
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\RehubCenterServer.runtimeconfig.json
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\RehubCenterServer.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\RehubCenterServer.pdb
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Azure.Core.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Azure.Identity.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Humanizer.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Mono.TextTemplating.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.ClientModel.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.CodeDom.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Composition.Convention.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Composition.Hosting.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Composition.Runtime.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Composition.TypedParts.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Drawing.Common.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Formats.Asn1.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.IO.Pipelines.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Memory.Data.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Runtime.Caching.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Security.Permissions.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Text.Json.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Windows.Extensions.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\BL.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Dal.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\BL.pdb
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Dal.pdb
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.csproj.AssemblyReference.cache
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.GeneratedMSBuildEditorConfig.editorconfig
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.AssemblyInfoInputs.cache
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.AssemblyInfo.cs
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.csproj.CoreCompileInputs.cache
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.MvcApplicationPartsAssemblyInfo.cache
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.sourcelink.json
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\scopedcss\bundle\RehubCenterServer.styles.css
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\staticwebassets.build.json
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\staticwebassets.build.json.cache
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\staticwebassets.development.json
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCen.965E1F1E.Up2Date
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\refint\RehubCenterServer.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.pdb
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.genruntimeconfig.cache
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\ref\RehubCenterServer.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\appsettings.Development.json
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\RehubCenterServer.staticwebassets.endpoints.json
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\appsettings.json
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\RehubCenterServer.exe
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\RehubCenterServer.deps.json
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\RehubCenterServer.runtimeconfig.json
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\RehubCenterServer.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\RehubCenterServer.pdb
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Azure.Core.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Azure.Identity.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Humanizer.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.ClientModel.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.CodeDom.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Memory.Data.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Text.Json.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\BL.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Dal.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\BL.pdb
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\bin\Debug\net8.0\Dal.pdb
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.csproj.AssemblyReference.cache
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.AssemblyInfoInputs.cache
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.AssemblyInfo.cs
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.csproj.CoreCompileInputs.cache
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.MvcApplicationPartsAssemblyInfo.cache
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.sourcelink.json
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\scopedcss\bundle\RehubCenterServer.styles.css
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\staticwebassets.build.json
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\staticwebassets.development.json
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCen.965E1F1E.Up2Date
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\refint\RehubCenterServer.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.pdb
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\RehubCenterServer.genruntimeconfig.cache
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\RehubCenterServer\obj\Debug\net8.0\ref\RehubCenterServer.dll

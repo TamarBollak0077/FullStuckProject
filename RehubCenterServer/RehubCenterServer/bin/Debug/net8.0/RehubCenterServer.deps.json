@@ -1081,7 +1081,10 @@
           "Microsoft.Extensions.DependencyInjection": "9.0.4"
         },
         "runtime": {
-          "BL.dll": {}
+          "BL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Dal/1.0.0": {
@@ -1090,7 +1093,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.4"
         },
         "runtime": {
-          "Dal.dll": {}
+          "Dal.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

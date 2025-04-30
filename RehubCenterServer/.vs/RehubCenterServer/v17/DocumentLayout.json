@@ -1,85 +1,84 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\",
+  "WorkspaceRootPath": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\bl\\services\\patientblservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|solutionrelative:bl\\services\\patientblservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\dal\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\dal\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|solutionrelative:dal\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CB29E11-E731-4FC1-B948-9A704B035DCE}|RehubCenterServer\\RehubCenterServer.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\rehubcenterserver\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4CB29E11-E731-4FC1-B948-9A704B035DCE}|RehubCenterServer\\RehubCenterServer.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\rehubcenterserver\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CB29E11-E731-4FC1-B948-9A704B035DCE}|RehubCenterServer\\RehubCenterServer.csproj|solutionrelative:rehubcenterserver\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\dal\\api\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|solutionrelative:dal\\api\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\bl\\services\\patientblservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|solutionrelative:bl\\services\\patientblservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\dal\\api\\ipatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|solutionrelative:dal\\api\\ipatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\dal\\dalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\dal\\dalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|solutionrelative:dal\\dalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\dal\\services\\therapistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\dal\\api\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|solutionrelative:dal\\api\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\dal\\api\\ipatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|solutionrelative:dal\\api\\ipatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\dal\\services\\therapistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|solutionrelative:dal\\services\\therapistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\dal\\api\\itherapist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\dal\\api\\itherapist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|solutionrelative:dal\\api\\itherapist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|solutionrelative:bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\bl\\api\\iblpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\bl\\api\\iblpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|solutionrelative:bl\\api\\iblpatient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\bl\\blmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\bl\\blmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|solutionrelative:bl\\blmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\dal\\api\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\dal\\api\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|solutionrelative:dal\\api\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CB29E11-E731-4FC1-B948-9A704B035DCE}|RehubCenterServer\\RehubCenterServer.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\rehubcenterserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4CB29E11-E731-4FC1-B948-9A704B035DCE}|RehubCenterServer\\RehubCenterServer.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\rehubcenterserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CB29E11-E731-4FC1-B948-9A704B035DCE}|RehubCenterServer\\RehubCenterServer.csproj|solutionrelative:rehubcenterserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\dal\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\dal\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|solutionrelative:dal\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\RehubCenterServer\\models\\DatabaseManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RehubCenterServer\\models\\DatabaseManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\RehubCenterServer\\models\\DatabaseManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\dal\\models\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\dal\\models\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|solutionrelative:dal\\models\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\bl\\api\\iblmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\bl\\api\\iblmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|solutionrelative:bl\\api\\iblmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}|Dal\\Dal.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CB29E11-E731-4FC1-B948-9A704B035DCE}|RehubCenterServer\\RehubCenterServer.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\rehubcenterserver\\controllers\\therapistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4CB29E11-E731-4FC1-B948-9A704B035DCE}|RehubCenterServer\\RehubCenterServer.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\rehubcenterserver\\controllers\\therapistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CB29E11-E731-4FC1-B948-9A704B035DCE}|RehubCenterServer\\RehubCenterServer.csproj|solutionrelative:rehubcenterserver\\controllers\\therapistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|h:\\c#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\rehubcenterserver\\bl\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|c:\\fullstuckproject\\rehubcenterproject\\rehubcenterserver\\bl\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|solutionrelative:bl\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -90,162 +89,152 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ICrud.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\API\\ICrud.cs",
-              "RelativeDocumentMoniker": "Dal\\API\\ICrud.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\API\\ICrud.cs",
-              "RelativeToolTip": "Dal\\API\\ICrud.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T11:13:29.349Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "DalManager.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\DalManager.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\DalManager.cs",
               "RelativeDocumentMoniker": "Dal\\DalManager.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\DalManager.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\DalManager.cs",
               "RelativeToolTip": "Dal\\DalManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T13:11:43.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PatientController.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\RehubCenterServer\\Controllers\\PatientController.cs",
-              "RelativeDocumentMoniker": "RehubCenterServer\\Controllers\\PatientController.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\RehubCenterServer\\Controllers\\PatientController.cs",
-              "RelativeToolTip": "RehubCenterServer\\Controllers\\PatientController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowDkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T13:31:39.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IBlPatient.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\BL\\Api\\IBlPatient.cs",
-              "RelativeDocumentMoniker": "BL\\Api\\IBlPatient.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\BL\\Api\\IBlPatient.cs",
-              "RelativeToolTip": "BL\\Api\\IBlPatient.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T12:57:57.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BlManager.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\BL\\BlManager.cs",
-              "RelativeDocumentMoniker": "BL\\BlManager.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\BL\\BlManager.cs",
-              "RelativeToolTip": "BL\\BlManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T13:16:58.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PatientBlServices.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\BL\\Services\\PatientBlServices.cs",
-              "RelativeDocumentMoniker": "BL\\Services\\PatientBlServices.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\BL\\Services\\PatientBlServices.cs",
-              "RelativeToolTip": "BL\\Services\\PatientBlServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T13:23:50.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IPatient.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\API\\IPatient.cs",
-              "RelativeDocumentMoniker": "Dal\\API\\IPatient.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\API\\IPatient.cs",
-              "RelativeToolTip": "Dal\\API\\IPatient.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T12:46:04.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T13:11:43.757Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\RehubCenterServer\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "RehubCenterServer\\Controllers\\PatientController.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\RehubCenterServer\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "RehubCenterServer\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T13:31:39.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatientBlServices.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\BL\\Services\\PatientBlServices.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\PatientBlServices.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\BL\\Services\\PatientBlServices.cs",
+              "RelativeToolTip": "BL\\Services\\PatientBlServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T13:23:50.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "PatientService.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\Services\\PatientService.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\Services\\PatientService.cs",
               "RelativeDocumentMoniker": "Dal\\Services\\PatientService.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\Services\\PatientService.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\Services\\PatientService.cs",
               "RelativeToolTip": "Dal\\Services\\PatientService.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAwwCIAAAAAAAAA",
+              "ViewState": "AgIAACIAAAAAAAAAAAAIwC0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T12:50:43.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BlManager.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\BL\\BlManager.cs",
+              "RelativeDocumentMoniker": "BL\\BlManager.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\BL\\BlManager.cs",
+              "RelativeToolTip": "BL\\BlManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T13:16:58.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBlPatient.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\BL\\Api\\IBlPatient.cs",
+              "RelativeDocumentMoniker": "BL\\Api\\IBlPatient.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\BL\\Api\\IBlPatient.cs",
+              "RelativeToolTip": "BL\\Api\\IBlPatient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T12:57:57.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPatient.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\API\\IPatient.cs",
+              "RelativeDocumentMoniker": "Dal\\API\\IPatient.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\API\\IPatient.cs",
+              "RelativeToolTip": "Dal\\API\\IPatient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T12:46:04.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICrud.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\API\\ICrud.cs",
+              "RelativeDocumentMoniker": "Dal\\API\\ICrud.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\API\\ICrud.cs",
+              "RelativeToolTip": "Dal\\API\\ICrud.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:13:29.349Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
               "Title": "IDal.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\API\\IDal.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\API\\IDal.cs",
               "RelativeDocumentMoniker": "Dal\\API\\IDal.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\API\\IDal.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\API\\IDal.cs",
               "RelativeToolTip": "Dal\\API\\IDal.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T12:47:16.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T12:47:16.044Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "ITherapist.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\API\\ITherapist.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\API\\ITherapist.cs",
               "RelativeDocumentMoniker": "Dal\\API\\ITherapist.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\API\\ITherapist.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\API\\ITherapist.cs",
               "RelativeToolTip": "Dal\\API\\ITherapist.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T12:46:43.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T12:46:43.632Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "TherapistService.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\Services\\TherapistService.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\Services\\TherapistService.cs",
               "RelativeDocumentMoniker": "Dal\\Services\\TherapistService.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\Services\\TherapistService.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\Services\\TherapistService.cs",
               "RelativeToolTip": "Dal\\Services\\TherapistService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T12:50:58.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T12:50:58.735Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "DatabaseManager.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\models\\DatabaseManager.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\models\\DatabaseManager.cs",
               "RelativeDocumentMoniker": "Dal\\models\\DatabaseManager.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\models\\DatabaseManager.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\models\\DatabaseManager.cs",
               "RelativeToolTip": "Dal\\models\\DatabaseManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -255,9 +244,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Program.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\RehubCenterServer\\Program.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\RehubCenterServer\\Program.cs",
               "RelativeDocumentMoniker": "RehubCenterServer\\Program.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\RehubCenterServer\\Program.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\RehubCenterServer\\Program.cs",
               "RelativeToolTip": "RehubCenterServer\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAgwB8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -267,22 +256,21 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "BL.csproj",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\BL\\BL.csproj",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\BL\\BL.csproj",
               "RelativeDocumentMoniker": "BL\\BL.csproj",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\BL\\BL.csproj",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\BL\\BL.csproj",
               "RelativeToolTip": "BL\\BL.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-25T07:30:53.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T07:30:53.259Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Patient.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\models\\Patient.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\models\\Patient.cs",
               "RelativeDocumentMoniker": "Dal\\models\\Patient.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\models\\Patient.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\models\\Patient.cs",
               "RelativeToolTip": "Dal\\models\\Patient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -292,9 +280,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "IBlManager.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\BL\\Api\\IBlManager.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\BL\\Api\\IBlManager.cs",
               "RelativeDocumentMoniker": "BL\\Api\\IBlManager.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\BL\\Api\\IBlManager.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\BL\\Api\\IBlManager.cs",
               "RelativeToolTip": "BL\\Api\\IBlManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -304,9 +292,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "Class1.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\Class1.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\Class1.cs",
               "RelativeDocumentMoniker": "Dal\\Class1.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\Dal\\Class1.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\Dal\\Class1.cs",
               "RelativeToolTip": "Dal\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -316,9 +304,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "TherapistController.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\RehubCenterServer\\Controllers\\TherapistController.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\RehubCenterServer\\Controllers\\TherapistController.cs",
               "RelativeDocumentMoniker": "RehubCenterServer\\Controllers\\TherapistController.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\RehubCenterServer\\Controllers\\TherapistController.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\RehubCenterServer\\Controllers\\TherapistController.cs",
               "RelativeToolTip": "RehubCenterServer\\Controllers\\TherapistController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -329,9 +317,7 @@
               "DocumentIndex": 14,
               "Title": "DatabaseManager.cs",
               "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\RehubCenterServer\\models\\DatabaseManager.cs",
-              "RelativeDocumentMoniker": "RehubCenterServer\\models\\DatabaseManager.cs",
               "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\RehubCenterServer\\models\\DatabaseManager.cs",
-              "RelativeToolTip": "RehubCenterServer\\models\\DatabaseManager.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T12:43:29.118Z"
             },
@@ -339,9 +325,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "Class1.cs",
-              "DocumentMoniker": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\BL\\Class1.cs",
+              "DocumentMoniker": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\BL\\Class1.cs",
               "RelativeDocumentMoniker": "BL\\Class1.cs",
-              "ToolTip": "H:\\C#\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8 \u05E1\u05D5\u05E4\u05D9\\RehubCenterServer\\BL\\Class1.cs",
+              "ToolTip": "C:\\fullStuckProject\\RehubCenterProject\\RehubCenterServer\\BL\\Class1.cs",
               "RelativeToolTip": "BL\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

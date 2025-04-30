@@ -1,18 +1,19 @@
-
 using Dal.API;
 using BL.Api;
 using Dal.Services;
 using RehubCenterServer.models;
 using BL;
 using BL.Services;
+using Microsoft.EntityFrameworkCore; // Χ Χ“Χ¨Χ© Χ‘Χ©Χ‘Χ™Χ UseSqlServer
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
-// δερσ ΰϊ DatabaseManager μωιψεϊιν
-builder.Services.AddScoped<DatabaseManager>();
+// Χ—Χ™Χ‘Χ•Χ¨ Χ”-DbContext ΧΆΧ connection string ΧΧ”-appsettings.json
+builder.Services.AddDbContext<DatabaseManager>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("RehubConnection")));
 
-// ςλωιε δερσ ΰϊ ωΰψ δωιψεϊιν
+// Χ©ΧΧ¨ Χ”Χ¨Χ©ΧΧ•Χª Χ”-Service
 builder.Services.AddScoped<IPatient, PatientService>();
 builder.Services.AddScoped<ITherapist, TherapistService>();
 builder.Services.AddScoped<IDal, DalManager>();
@@ -22,7 +23,7 @@ builder.Services.AddScoped<IBlPatient, PatientBlServices>();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAnyOriginPolicy",
-        builder => builder.AllowAnyOrigin() // ξΰτωψ μλμ δξχεψεϊ
+        builder => builder.AllowAnyOrigin()
                           .AllowAnyMethod()
                           .AllowAnyHeader());
 });
@@ -34,4 +35,3 @@ app.UseCors("AllowAnyOriginPolicy");
 app.MapControllers();
 
 app.Run();
-

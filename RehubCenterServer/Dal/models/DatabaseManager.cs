@@ -24,9 +24,12 @@ public partial class DatabaseManager : DbContext
     public virtual DbSet<TherapySession> TherapySessions { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=H:\\C#\\פרוייקט סופי\\RehubCenterServer\\Dal\\DataBase\\RehubDataBase.mdf;Integrated Security=True;Connect Timeout=30");
-
+{
+    if (!optionsBuilder.IsConfigured)
+    {
+        // כאן לא עושים כלום – הכל מגיע דרך התלויות (DI)
+    }
+}
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Patient>(entity =>
