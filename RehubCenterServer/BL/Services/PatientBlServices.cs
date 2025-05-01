@@ -26,7 +26,7 @@ namespace BL.Services
         public void Delete(int id)
         {
             patient.Delete(patient.GetById(id));
-            Console.WriteLine("patient " +  id+ " deleted successfully!");
+            Console.WriteLine("patient " + id + " deleted successfully!");
         }
 
         public IEnumerable<Patient> Read()
@@ -38,9 +38,18 @@ namespace BL.Services
             return patient.Read().Select(p => p.ContactInfo);
         }
 
-        public void Update(Patient p)
+        public void UpdateContactInfo(int patientId, string newContactInfo)
         {
-            throw new NotImplementedException();
+            var existingPatient = patient.GetById(patientId);
+            if (existingPatient == null)
+            {
+                throw new InvalidOperationException("Patient not found.");
+            }
+
+            existingPatient.ContactInfo = newContactInfo;
+            patient.Update(existingPatient);
+            Console.WriteLine("Contact info for patient " + existingPatient.FirstName + " " + existingPatient.LastName + " updated successfully.");
         }
+
     }
 }

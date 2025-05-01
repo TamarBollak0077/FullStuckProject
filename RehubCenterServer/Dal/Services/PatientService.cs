@@ -51,9 +51,22 @@ namespace Dal.Services
             return databaseManager.Patients.FirstOrDefault(p => p.PatientId == id) ?? null;
         }
 
-        public void Update(Patient item)
+
+        //updating the patient contactInfo details
+        public void Update(Patient p)
         {
-            throw new NotImplementedException();
+            if (p == null)
+                throw new ArgumentNullException("No patient details were entered.");
+
+            var existingPatient = databaseManager.Patients.FirstOrDefault(patient => patient.PatientId == p.PatientId);
+            if (existingPatient == null)
+                throw new InvalidOperationException("Patient not found.");
+
+            // עדכון פרטי המטופל
+            existingPatient.ContactInfo = p.ContactInfo;
+
+            databaseManager.SaveChanges();
         }
+
     }
 }

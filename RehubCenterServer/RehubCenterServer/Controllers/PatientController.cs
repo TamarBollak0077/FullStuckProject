@@ -1,6 +1,7 @@
-﻿using RehubCenterServer.models;
+﻿using BL.Api; // הוסף את השימוש בשירות ה-BL
+using BL.Models;
 using Microsoft.AspNetCore.Mvc;
-using BL.Api; // הוסף את השימוש בשירות ה-BL
+using RehubCenterServer.models;
 
 namespace RehubCenterServer.Controllers
 {
@@ -57,7 +58,27 @@ namespace RehubCenterServer.Controllers
         public IActionResult Delete(int id)
         {
             _patientService.Delete(id);
-            return NoContent(); 
+            return Ok("Patient deleted successfully.");
+        }
+
+        //update contact info
+        [HttpPut("update-contact-info/{patientId}")]
+        public IActionResult UpdateContactInfo(int patientId, [FromBody] ContactInfoUpdate contactInfoUpdate)
+        {
+            if (contactInfoUpdate == null || string.IsNullOrEmpty(contactInfoUpdate.NewContactInfo))
+            {
+                return BadRequest("New contact info is required.");
+            }
+
+            try
+            {
+                _patientService.UpdateContactInfo(patientId, contactInfoUpdate.NewContactInfo);
+                return Ok("Contact info updated successfully.");
+            }
+            catch (InvalidOperationException ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
 
     }

@@ -80,5 +80,26 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "RehubCenterServer.Controllers.PatientController",
+    "Method": "UpdateContactInfo",
+    "RelativePath": "api/Patient/update-contact-info/{patientId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "contactInfoUpdate",
+        "Type": "BL.Models.ContactInfoUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
