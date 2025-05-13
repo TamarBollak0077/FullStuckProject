@@ -1,6 +1,7 @@
 # RehubCenterProject / FullStuckProject
 
-#Project Description
+Project Description
+
 This project is a Full Stack web application developed using ASP.NET Core (C#) and React, designed as an online platform for a rehabilitation and recovery center. The website serves as a digital gateway for individuals seeking support with addiction recovery, providing access to educational resources, treatment methodologies, and professional guidance.
 
 The system includes the following core features:
