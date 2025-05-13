@@ -74,22 +74,23 @@ The website serves as a digital gateway for individuals seeking support with add
 
 ### **1. Clone the Repository**
 
+Clone the project repository to your local machine:
+
 ```bash
 git clone https://github.com/yourusername/yourproject.git
 
----
 
 ### **2. Run the Backend**
 
-- Open the solution in **Visual Studio**
-- Configure your database connection string in `appsettings.json`
+- Open the solution in **Visual Studio**  
+- Configure your database connection string in `appsettings.json`  
 - Open the **Package Manager Console** and run the following commands:
 
 ```bash
 Add-Migration InitialCreate
 Update-Database
 
-### **Run the Frontend**
+### **3. Run the Frontend**
 
 Navigate to the frontend directory and install dependencies:
 
@@ -97,3 +98,6 @@ Navigate to the frontend directory and install dependencies:
 cd ClientApp
 npm install
 npm run dev
+
+- This will launch the React development server at http://localhost:5253  
+- Ensure the backend is running to handle API requests  
