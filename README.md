@@ -75,3 +75,40 @@ The website serves as a digital gateway for individuals seeking support with add
 ```bash
 git clone https://github.com/yourusername/yourproject.git
 
+### **2. Run the Backend**
+
+- Open the solution in **Visual Studio**  
+- Configure your database connection string inside `appsettings.json`  
+- Open the **Package Manager Console** and run:
+
+```bash
+Add-Migration InitialCreate
+Update-Database
+
+### **3. Run the Frontend**
+
+Navigate to the frontend directory and install dependencies:
+
+```bash
+cd ClientApp
+npm install
+npm run dev
+
+/ProjectRoot
+│
+├── /RehubCenterReact       # React frontend (ClientApp)
+│   ├── /components         # Reusable React components
+│   ├── /pages              # Page-level components (e.g., Home, Dashboard, Register)
+│   ├── /services           # Axios service wrappers for API calls
+│   └── App.jsx             # Main application component
+│
+├── /Controllers            # ASP.NET Core API controllers
+├── /Entities               # EF Core entity models
+├── /Data                   # ApplicationDbContext and migrations
+├── /Services               # Business logic services
+│
+├── appsettings.json        # Application configuration (e.g., DB connection string)
+├── Program.cs              # Entry point for ASP.NET Core application
+└── Startup.cs              # Middleware and service configuration
+
+
