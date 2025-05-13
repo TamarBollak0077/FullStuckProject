@@ -4,7 +4,7 @@ using Dal;
 using Dal.API;
 using Dal.Services;
 using Microsoft.Extensions.DependencyInjection;
-using RehubCenterServer.models;
+using Dal.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

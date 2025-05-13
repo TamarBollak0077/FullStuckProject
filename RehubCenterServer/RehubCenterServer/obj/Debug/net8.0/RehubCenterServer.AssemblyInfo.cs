@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RehubCenterServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+944fe64c01d0cb1b316ab6972206cd93bbbf57dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fb98b2820a0a377b9234bdaf0a1586e84657247")]
 [assembly: System.Reflection.AssemblyProductAttribute("RehubCenterServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RehubCenterServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

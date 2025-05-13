@@ -1,5 +1,6 @@
 ﻿using Dal.API;
-using RehubCenterServer.models;
+using Dal.Context;
+using Dal.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace Dal.Services
 {
-    public class TherapistService:ITherapist
+    public class TherapistService : ITherapist
     {
-        DatabaseManager databaseManager;
+        RehubDbContext rehubDbContext;
 
-        public TherapistService(DatabaseManager db)
+        public TherapistService(RehubDbContext db)
         {
-            databaseManager = db;
+            rehubDbContext = db;
         }
 
         public void Create(ITherapist item)

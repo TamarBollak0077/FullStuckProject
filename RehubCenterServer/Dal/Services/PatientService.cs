@@ -1,5 +1,6 @@
 ﻿using Dal.API;
-using RehubCenterServer.models;
+using Dal.Context;
+using Dal.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,44 +12,44 @@ namespace Dal.Services
     public class PatientService : IPatient
     {
 
-        DatabaseManager databaseManager;
+        RehubDbContext rehubDbContext;
 
-        public PatientService(DatabaseManager db)
+        public PatientService(RehubDbContext db)
         {
-            databaseManager = db;
+            rehubDbContext = db;
         }
         public void Create(Patient p)
         {
             if (p == null)
                 throw new ArgumentNullException("No employee details were entered.");
 
-            databaseManager.Patients.Add(p);
-            databaseManager.SaveChanges();
+            rehubDbContext.Patients.Add(p);
+            rehubDbContext.SaveChanges();
         }
 
         public void Delete(Patient p)
         {
             // מחיקת כל הפגישות הקשורות למטופל
-            var sessionsToDelete = databaseManager.PatientSessions.Where(s => s.PatientId == p.PatientId).ToList();
-            databaseManager.PatientSessions.RemoveRange(sessionsToDelete);
-            databaseManager.SaveChanges();
+            var sessionsToDelete = rehubDbContext.PatientSessions.Where(s => s.PatientId == p.PatientId).ToList();
+            rehubDbContext.PatientSessions.RemoveRange(sessionsToDelete);
+            rehubDbContext.SaveChanges();
 
             if (p != null)
             {
-                databaseManager.Patients.Remove(p);
-                databaseManager.SaveChanges();
+                rehubDbContext.Patients.Remove(p);
+                rehubDbContext.SaveChanges();
             }
 
         }
 
         public List<Patient> Read()
         {
-            return databaseManager.Patients.ToList();
+            return rehubDbContext.Patients.ToList();
         }
         public Patient GetById(int id)
 
         {
-            return databaseManager.Patients.FirstOrDefault(p => p.PatientId == id) ?? null;
+            return rehubDbContext.Patients.FirstOrDefault(p => p.PatientId == id) ?? null;
         }
 
 
@@ -58,14 +59,14 @@ namespace Dal.Services
             if (p == null)
                 throw new ArgumentNullException("No patient details were entered.");
 
-            var existingPatient = databaseManager.Patients.FirstOrDefault(patient => patient.PatientId == p.PatientId);
+            var existingPatient = rehubDbContext.Patients.FirstOrDefault(patient => patient.PatientId == p.PatientId);
             if (existingPatient == null)
                 throw new InvalidOperationException("Patient not found.");
 
             // עדכון פרטי המטופל
             existingPatient.ContactInfo = p.ContactInfo;
 
-            databaseManager.SaveChanges();
+            rehubDbContext.SaveChanges();
         }
 
     }

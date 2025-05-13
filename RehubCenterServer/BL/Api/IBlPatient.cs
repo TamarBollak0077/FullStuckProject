@@ -1,4 +1,4 @@
-﻿using RehubCenterServer.models;
+﻿using Dal.Entities;
 
 public interface IBlPatient
 {

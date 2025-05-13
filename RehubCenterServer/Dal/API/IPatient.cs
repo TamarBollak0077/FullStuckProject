@@ -1,4 +1,4 @@
-﻿using RehubCenterServer.models;
+﻿using Dal.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Dal.API
 {
-    public interface IPatient: ICrud<Patient>
+    public interface IPatient : ICrud<Patient>
     {
         public Patient GetById(int id);
     }
