@@ -80,15 +80,16 @@ Clone the project repository to your local machine:
 git clone https://github.com/yourusername/yourproject.git
 
 
-### **2. Run the Backend**
+## 2. Run the Backend
 
-- Open the solution in **Visual Studio**  
-- Configure your database connection string in `appsettings.json`  
+- Open the solution in **Visual Studio**
+- Configure your database connection string in `appsettings.json`
 - Open the **Package Manager Console** and run the following commands:
 
 ```bash
 Add-Migration InitialCreate
 Update-Database
+
 
 ### **3. Run the Frontend**
 
