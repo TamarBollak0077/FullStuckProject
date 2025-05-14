@@ -96,7 +96,7 @@ Update-Database
 Navigate to the frontend directory and install dependencies:
 
 ```bash
-cd ClientApp
+cd RehubCenterReact
 npm install
 npm run dev
 ```
