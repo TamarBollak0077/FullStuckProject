@@ -6,7 +6,6 @@ import {
     CardContent,
     Avatar,
     Typography,
-    Button,
     Grid,
 } from "@mui/material";
 
@@ -64,7 +63,7 @@ const GetAllTherapistsDetails = () => {
                                     {therapist.firstName} {therapist.lastName}
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
-                                    {therapist.contactInfo}
+                                    {therapist.title} {therapist.specialization}
                                 </Typography>
                             </CardContent>
                         </Card>

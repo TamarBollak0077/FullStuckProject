@@ -1,14 +1,11 @@
-<<<<<<< HEAD
+
 <Project Sdk="Microsoft.NET.Sdk">
-=======
-﻿<Project Sdk="Microsoft.NET.Sdk">
->>>>>>> cea7f262b2e29ac0a0fc93f618fc5467922301f4
+
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-<<<<<<< HEAD
   </PropertyGroup><ItemGroup>
   <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
   <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.4" />
@@ -17,17 +14,5 @@
     <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
   </PackageReference>
 </ItemGroup>
-=======
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.4" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.4">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-  </ItemGroup>
->>>>>>> cea7f262b2e29ac0a0fc93f618fc5467922301f4
 
 </Project>

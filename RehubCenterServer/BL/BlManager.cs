@@ -4,11 +4,7 @@ using Dal;
 using Dal.API;
 using Dal.Services;
 using Microsoft.Extensions.DependencyInjection;
-<<<<<<< HEAD
 using Dal.Entities;
-=======
-using RehubCenterServer.models;
->>>>>>> cea7f262b2e29ac0a0fc93f618fc5467922301f4
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +16,7 @@ namespace BL
     public class BlManager : IBlManager
     {
         public IBlPatient Patient { get; }
+        public IBlTherapist Therapist { get; }
         public BlManager()
         {
 
@@ -27,6 +24,7 @@ namespace BL
 
             services.AddSingleton<IDal, DalManager>();
             services.AddSingleton<IBlPatient, PatientBlServices>();
+            services.AddSingleton<IBlTherapist, TherapistsBlServices>();
             ServiceProvider serviceProvider = services.BuildServiceProvider();
             Patient = serviceProvider.GetService<IBlPatient>();
 

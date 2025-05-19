@@ -14,10 +14,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-redux": "^9.2.0",
-<<<<<<< HEAD
     "react-router-dom": "^7.6.0",
-=======
->>>>>>> cea7f262b2e29ac0a0fc93f618fc5467922301f4
+
     "redux": "^5.0.1"
   },
   "devDependencies": {

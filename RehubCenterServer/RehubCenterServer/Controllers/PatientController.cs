@@ -1,14 +1,5 @@
-﻿using BL.Api; // הוסף את השימוש בשירות ה-BL
-using BL.Models;
-<<<<<<< HEAD
-using Dal.Entities;
+﻿using Dal.Entities;
 using Microsoft.AspNetCore.Mvc;
-
-=======
-using Microsoft.AspNetCore.Mvc;
-using RehubCenterServer.models;
->>>>>>> cea7f262b2e29ac0a0fc93f618fc5467922301f4
-
 namespace RehubCenterServer.Controllers
 {
     [Route("api/[controller]")]
@@ -24,14 +15,9 @@ namespace RehubCenterServer.Controllers
 
 
         //create
-<<<<<<< HEAD
         [HttpPost("add")]
         public ActionResult<Patient> Add([FromBody] Patient newPatient)
 
-=======
-        [HttpPost]
-        public ActionResult<Patient> Add([FromBody] Patient newPatient)
->>>>>>> cea7f262b2e29ac0a0fc93f618fc5467922301f4
         {
             if (newPatient == null || string.IsNullOrEmpty(newPatient.FirstName) || string.IsNullOrEmpty(newPatient.LastName))
             {
@@ -73,26 +59,26 @@ namespace RehubCenterServer.Controllers
             return Ok("Patient deleted successfully.");
         }
 
-        //update contact info
-        [HttpPut("update-contact-info/{patientId}")]
-        public IActionResult UpdateContactInfo(int patientId, [FromBody] ContactInfoUpdate contactInfoUpdate)
-        {
-            if (contactInfoUpdate == null || string.IsNullOrEmpty(contactInfoUpdate.NewContactInfo))
-            {
-                return BadRequest("New contact info is required.");
-            }
+        ////update contact info
+        //[HttpPut("update-contact-info/{patientId}")]
+        //public IActionResult UpdateContactInfo(int patientId, [FromBody] ContactInfoUpdate contactInfoUpdate)
+        //{
+        //    if (contactInfoUpdate == null || string.IsNullOrEmpty(contactInfoUpdate.NewContactInfo))
+        //    {
+        //        return BadRequest("New contact info is required.");
+        //    }
 
-            try
-            {
-                _patientService.UpdateContactInfo(patientId, contactInfoUpdate.NewContactInfo);
-                return Ok("Contact info updated successfully.");
-            }
-            catch (InvalidOperationException ex)
-            {
-                return NotFound(ex.Message);
-            }
-        }
-<<<<<<< HEAD
+        //    try
+        //    {
+        //        _patientService.UpdateContactInfo(patientId, contactInfoUpdate.NewContactInfo);
+        //        return Ok("Contact info updated successfully.");
+        //    }
+        //    catch (InvalidOperationException ex)
+        //    {
+        //        return NotFound(ex.Message);
+        //    }
+        //}
+
         // Login
         [HttpPost("login")]
         public ActionResult Login([FromBody] int patientId)
@@ -131,10 +117,6 @@ namespace RehubCenterServer.Controllers
             return Created("", new { message = "Successfully registered.", patientId = newPatient.PatientId });
         }
 
-
-
-=======
->>>>>>> cea7f262b2e29ac0a0fc93f618fc5467922301f4
 
     }
 }

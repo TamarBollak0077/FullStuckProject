@@ -1,10 +1,8 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-<<<<<<< HEAD
-import { removePatient } from '../redux/patientsSlice';
-=======
+
 import { removePatient, setPatients, updatePatient } from '../redux/patientsSlice';
->>>>>>> cea7f262b2e29ac0a0fc93f618fc5467922301f4
+
 
 
 const GetAllPatientsDetails = () => {

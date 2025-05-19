@@ -1,32 +1,6 @@
 [
   {
     "ContainingType": "RehubCenterServer.Controllers.PatientController",
-    "Method": "Add",
-    "RelativePath": "api/Patient",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "newPatient",
-        "Type": "RehubCenterServer.models.Patient",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "RehubCenterServer.models.Patient",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "RehubCenterServer.Controllers.PatientController",
     "Method": "GetPatientsDetails",
     "RelativePath": "api/Patient",
     "HttpMethod": "GET",
@@ -35,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[RehubCenterServer.models.Patient, Dal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Dal.Entities.Patient, Dal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -63,6 +37,32 @@
   },
   {
     "ContainingType": "RehubCenterServer.Controllers.PatientController",
+    "Method": "Add",
+    "RelativePath": "api/Patient/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newPatient",
+        "Type": "Dal.Entities.Patient",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Dal.Entities.Patient",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RehubCenterServer.Controllers.PatientController",
     "Method": "GetPatientsContactInfo",
     "RelativePath": "api/Patient/contactInfo",
     "HttpMethod": "GET",
@@ -83,9 +83,9 @@
   },
   {
     "ContainingType": "RehubCenterServer.Controllers.PatientController",
-    "Method": "UpdateContactInfo",
-    "RelativePath": "api/Patient/update-contact-info/{patientId}",
-    "HttpMethod": "PUT",
+    "Method": "Login",
+    "RelativePath": "api/Patient/login",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -93,13 +93,44 @@
         "Name": "patientId",
         "Type": "System.Int32",
         "IsRequired": true
-      },
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RehubCenterServer.Controllers.PatientController",
+    "Method": "SignUp",
+    "RelativePath": "api/Patient/signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Name": "contactInfoUpdate",
-        "Type": "BL.Models.ContactInfoUpdate",
+        "Name": "newPatient",
+        "Type": "Dal.Entities.Patient",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RehubCenterServer.Controllers.TherapistController",
+    "Method": "GetPatientsDetails",
+    "RelativePath": "api/Therapist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Dal.Entities.Patient, Dal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
