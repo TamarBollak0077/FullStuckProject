@@ -4,7 +4,11 @@ using Dal;
 using Dal.API;
 using Dal.Services;
 using Microsoft.Extensions.DependencyInjection;
+<<<<<<< HEAD
 using Dal.Entities;
+=======
+using RehubCenterServer.models;
+>>>>>>> cea7f262b2e29ac0a0fc93f618fc5467922301f4
 using System;
 using System.Collections.Generic;
 using System.Linq;

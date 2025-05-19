@@ -1,0 +1,44 @@
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\bin\Debug\net8.0\Dal.deps.json
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\bin\Debug\net8.0\Dal.runtimeconfig.json
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\bin\Debug\net8.0\Dal.dll
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\bin\Debug\net8.0\Dal.pdb
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.csproj.AssemblyReference.cache
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.AssemblyInfoInputs.cache
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.AssemblyInfo.cs
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.csproj.CoreCompileInputs.cache
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.dll
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\refint\Dal.dll
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.pdb
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.genruntimeconfig.cache
+H:\C#\פרוייקט סופי\RehubCenterServer\Dal\obj\Debug\net8.0\ref\Dal.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\bin\Debug\net8.0\Dal.deps.json
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\bin\Debug\net8.0\Dal.runtimeconfig.json
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\bin\Debug\net8.0\Dal.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\bin\Debug\net8.0\Dal.pdb
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.csproj.AssemblyReference.cache
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.AssemblyInfoInputs.cache
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.AssemblyInfo.cs
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.csproj.CoreCompileInputs.cache
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.sourcelink.json
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\refint\Dal.dll
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.pdb
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.genruntimeconfig.cache
+O:\1 תמר\0 לימודים הנדסאים חורף תשפד\שנה ב\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\ref\Dal.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\bin\Debug\net8.0\Dal.deps.json
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\bin\Debug\net8.0\Dal.runtimeconfig.json
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\bin\Debug\net8.0\Dal.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\bin\Debug\net8.0\Dal.pdb
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.csproj.AssemblyReference.cache
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.AssemblyInfoInputs.cache
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.AssemblyInfo.cs
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.csproj.CoreCompileInputs.cache
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.sourcelink.json
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\refint\Dal.dll
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.pdb
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\Dal.genruntimeconfig.cache
+C:\fullStuckProject\RehubCenterProject\RehubCenterServer\Dal\obj\Debug\net8.0\ref\Dal.dll
