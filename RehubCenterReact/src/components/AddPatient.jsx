@@ -1,5 +1,19 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import {
+  Box,
+  Paper,
+  Typography,
+  TextField,
+  Button,
+  CircularProgress,
+  Alert,
+} from '@mui/material';
+
+const softGreen = '#4CAF50';        // ירוק רך
+const softTurquoise = '#4DB6AC';    // טורקיז רך
+const warmDarkGray = '#37474F';     // אפור כהה חם
+const offWhite = '#FAFAFA';         // לבן נקי
 
 export default function AddPatient() {
   const [formData, setFormData] = useState({
@@ -9,10 +23,10 @@ export default function AddPatient() {
     dateOfBirth: '',
     contactInfo: '',
   });
+
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [success, setSuccess] = useState(false);
-
   const navigate = useNavigate();
 
   const handleChange = (e) => {
@@ -61,18 +75,124 @@ export default function AddPatient() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="p-4 space-y-2">
-      <h2>Sign Up</h2>
-      <input name="patientId" placeholder="ID" value={formData.patientId} onChange={handleChange} required />
-      <input name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} required />
-      <input name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} required />
-      <input name="dateOfBirth" type="date" value={formData.dateOfBirth} onChange={handleChange} required />
-      <input name="contactInfo" placeholder="Contact Information" value={formData.contactInfo} onChange={handleChange} required />
-      <button type="submit" disabled={loading}>
-        {loading ? 'Submitting...' : 'Sign Up'}
-      </button>
-      {error && <p className="text-red-600">Error: {error}</p>}
-      {success && <p className="text-green-600">✓ Patient added successfully!</p>}
-    </form>
+    <Box
+      sx={{
+        backgroundColor: warmDarkGray,
+        minHeight: '100vh',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'flex-start', // במקום center
+        pt: 10, // רווח פנימי מלמעלה
+        mt: 8,  // רווח חיצוני מה־navbar
+        p: 2,
+      }}
+    >
+
+      <Paper
+        elevation={6}
+        sx={{
+          backgroundColor: '#455A64',
+          padding: 4,
+          borderRadius: 4,
+          width: '100%',
+          maxWidth: 450,
+        }}
+      >
+        <Typography
+          variant="h5"
+          sx={{
+            color: softGreen,
+            mb: 3,
+            textAlign: 'center',
+            fontWeight: 'bold',
+          }}
+        >
+          הרשמה
+        </Typography>
+
+        <form onSubmit={handleSubmit} noValidate>
+          <TextField
+            name="patientId"
+            label="תעודת זהות"
+            value={formData.patientId}
+            onChange={handleChange}
+            required
+            fullWidth
+            sx={fieldStyle}
+          />
+          <TextField
+            name="firstName"
+            label="שם פרטי"
+            value={formData.firstName}
+            onChange={handleChange}
+            required
+            fullWidth
+            sx={fieldStyle}
+          />
+          <TextField
+            name="lastName"
+            label="שם משפחה"
+            value={formData.lastName}
+            onChange={handleChange}
+            required
+            fullWidth
+            sx={fieldStyle}
+          />
+          <TextField
+            name="dateOfBirth"
+            label="תאריך לידה"
+            type="date"
+            value={formData.dateOfBirth}
+            onChange={handleChange}
+            required
+            fullWidth
+            InputLabelProps={{ shrink: true }}
+            sx={fieldStyle}
+          />
+          <TextField
+            name="contactInfo"
+            label="פרטי קשר"
+            value={formData.contactInfo}
+            onChange={handleChange}
+            required
+            fullWidth
+            sx={fieldStyle}
+          />
+
+          <Button
+            type="submit"
+            fullWidth
+            disabled={loading}
+            sx={{
+              mt: 2,
+              backgroundColor: softTurquoise,
+              color: offWhite,
+              fontWeight: 'bold',
+              borderRadius: 2,
+              '&:hover': {
+                backgroundColor: softGreen,
+              },
+            }}
+          >
+            {loading ? <CircularProgress size={24} color="inherit" /> : 'הרשמה'}
+          </Button>
+
+          {error && <Alert severity="error" sx={{ mt: 2 }}>{error}</Alert>}
+          {success && (
+            <Alert severity="success" sx={{ mt: 2 }}>
+              ✓ המטופל נוסף בהצלחה!
+            </Alert>
+          )}
+        </form>
+      </Paper>
+    </Box>
   );
 }
+
+const fieldStyle = {
+  mb: 2,
+  '& .MuiInputBase-root': {
+    backgroundColor: offWhite,
+    borderRadius: 2,
+  },
+};

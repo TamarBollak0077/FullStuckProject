@@ -1,50 +1,97 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
+import { Box, TextField, Button, Typography, Paper } from '@mui/material';
 
-export default function Login() {
-  const [formData, setFormData] = useState({
-    patientId: '',
-    firstName: '',
-    lastName: '',
-  });
+const softGreen = '#4CAF50';        // ירוק רך
+const softTurquoise = '#4DB6AC';    // טורקיז רך
+const warmDarkGray = '#37474F';     // אפור כהה חם
+const offWhite = '#FAFAFA';         // לבן נקי
 
-  const handleChange = (e) => {
-    setFormData((prev) => ({
-      ...prev,
-      [e.target.name]: e.target.value,
-    }));
-  };
+const Login = () => {
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+    const handleLogin = () => {
+        console.log('Logging in with:', email, password);
+    };
 
-    try {
-      const response = await fetch('http://localhost:5253/api/patient/login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ patientId: formData.patientId }), // שולח רק ת"ז
-      });
+    return (
+        <Box
+            sx={{
+                backgroundColor: warmDarkGray,
+                minHeight: '100vh',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                p: 2,
+            }}
+        >
+            <Paper
+                elevation={6}
+                sx={{
+                    backgroundColor: '#455A64',
+                    padding: 4,
+                    borderRadius: 4,
+                    width: '100%',
+                    maxWidth: 400,
+                }}
+            >
+                <Typography
+                    variant="h5"
+                    sx={{ color: softGreen, mb: 3, textAlign: 'center', fontWeight: 'bold' }}
+                >
+                    התחברות
+                </Typography>
 
-      if (!response.ok) {
-        const error = await response.json();
-        alert(error.message);
-        return;
-      }
+                <TextField
+                    label="אימייל"
+                    variant="outlined"
+                    fullWidth
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    sx={{
+                        mb: 2,
+                        '& .MuiInputBase-root': {
+                            borderRadius: 2,
+                            backgroundColor: offWhite,
+                        },
+                    }}
+                />
 
-      const data = await response.json();
-      alert(`Welcome, ${data.firstName} ${data.lastName}`);
-      // כאן אפשר לעשות redirect לעמוד אישי
-    } catch (err) {
-      alert('Network error');
-    }
-  };
+                <TextField
+                    label="סיסמה"
+                    type="password"
+                    variant="outlined"
+                    fullWidth
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    sx={{
+                        mb: 3,
+                        '& .MuiInputBase-root': {
+                            borderRadius: 2,
+                            backgroundColor: offWhite,
+                        },
+                    }}
+                />
 
-  return (
-    <form onSubmit={handleSubmit} className="p-4 space-y-2">
-      <h2>Login</h2>
-      <input name="patientId" placeholder="ID" value={formData.patientId} onChange={handleChange} required />
-      <input name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} required />
-      <input name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} required />
-      <button type="submit">Login</button>
-    </form>
-  );
-}
+                <Button
+                    variant="contained"
+                    fullWidth
+                    onClick={handleLogin}
+                    sx={{
+                        backgroundColor: softTurquoise,
+                        color: offWhite,
+                        fontWeight: 'bold',
+                        borderRadius: 2,
+                        '&:hover': {
+                            backgroundColor: softGreen,
+                        },
+                    }}
+                >
+                    התחבר
+                </Button>
+            </Paper>
+        </Box>
+    );
+};
+
+export default Login;
