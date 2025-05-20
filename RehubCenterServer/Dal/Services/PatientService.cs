@@ -47,11 +47,9 @@ namespace Dal.Services
         {
             return rehubDbContext.Patients.ToList();
         }
-        public Patient GetById(int id)
-
+        public Patient? GetById(int id)
         {
-
-            return rehubDbContext.Patients.FirstOrDefault(p => p.PatientId == id) ?? null;
+            return rehubDbContext.Patients.FirstOrDefault(p => p.PatientId == id);
         }
 
 

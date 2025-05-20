@@ -90,8 +90,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "patientId",
-        "Type": "System.Int32",
+        "Name": "loginRequest",
+        "Type": "RehubCenterServer.Models.PatientLoginRequest",
         "IsRequired": true
       }
     ],
