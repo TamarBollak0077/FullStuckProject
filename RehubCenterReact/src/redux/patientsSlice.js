@@ -61,6 +61,9 @@ const patientSlice = createSlice({
         state.list[index] = action.payload;
       }
     },
+    setPatients: (state, action) => {
+  state.list = action.payload;
+},
   },
   extraReducers: (builder) => {
     builder
@@ -94,6 +97,6 @@ const patientSlice = createSlice({
   },
 });
 
-export const { removePatient, updatePatient } = patientSlice.actions;
+export const { removePatient, updatePatient ,setPatients } = patientSlice.actions;
 export default patientSlice.reducer;
 

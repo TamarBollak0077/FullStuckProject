@@ -52,6 +52,7 @@ export default function AddPatient() {
         dateOfBirth: '',
         contactInfo: '',
       });
+      navigate('/signup-success');
     } catch (err) {
       setError(err.message);
     } finally {

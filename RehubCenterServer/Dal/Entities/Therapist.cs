@@ -14,6 +14,7 @@ public partial class Therapist
     public string LastName { get; set; } = null!;
 
     public string Specialization { get; set; } = null!;
+    public string? Description { get; set; }
 
     public string ContactInfo { get; set; } = null!;
 }

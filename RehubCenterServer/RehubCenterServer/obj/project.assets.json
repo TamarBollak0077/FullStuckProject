@@ -4992,23 +4992,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USER\\.nuget\\packages\\": {},
+    "C:\\Users\\בולק תמר\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\FullStuckProject-Git\\RehubCenterServer\\RehubCenterServer\\RehubCenterServer.csproj",
+      "projectUniqueName": "H:\\Csharp\\FullStackProject-Git\\RehubCenterServer\\RehubCenterServer\\RehubCenterServer.csproj",
       "projectName": "RehubCenterServer",
-      "projectPath": "C:\\Users\\USER\\FullStuckProject-Git\\RehubCenterServer\\RehubCenterServer\\RehubCenterServer.csproj",
-      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\FullStuckProject-Git\\RehubCenterServer\\RehubCenterServer\\obj\\",
+      "projectPath": "H:\\Csharp\\FullStackProject-Git\\RehubCenterServer\\RehubCenterServer\\RehubCenterServer.csproj",
+      "packagesPath": "C:\\Users\\בולק תמר\\.nuget\\packages\\",
+      "outputPath": "H:\\Csharp\\FullStackProject-Git\\RehubCenterServer\\RehubCenterServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\בולק תמר\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5023,11 +5023,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\USER\\FullStuckProject-Git\\RehubCenterServer\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\USER\\FullStuckProject-Git\\RehubCenterServer\\BL\\BL.csproj"
+            "H:\\Csharp\\FullStackProject-Git\\RehubCenterServer\\BL\\BL.csproj": {
+              "projectPath": "H:\\Csharp\\FullStackProject-Git\\RehubCenterServer\\BL\\BL.csproj"
             },
-            "C:\\Users\\USER\\FullStuckProject-Git\\RehubCenterServer\\Dal\\Dal.csproj": {
-              "projectPath": "C:\\Users\\USER\\FullStuckProject-Git\\RehubCenterServer\\Dal\\Dal.csproj"
+            "H:\\Csharp\\FullStackProject-Git\\RehubCenterServer\\Dal\\Dal.csproj": {
+              "projectPath": "H:\\Csharp\\FullStackProject-Git\\RehubCenterServer\\Dal\\Dal.csproj"
             }
           }
         }
@@ -5082,7 +5082,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300-preview.0.25177.5/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

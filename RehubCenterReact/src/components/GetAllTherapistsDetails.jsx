@@ -42,30 +42,36 @@ const GetAllTherapistsDetails = () => {
     return (
 
         <div className="therapists-details">
-            <h1>Our Therapists:</h1>
+           <h1></h1>
 
             <Grid container spacing={3}>
                 {therapists.map((therapist) => (
-                    <Grid item xs={12} sm={6} md={4} key={therapist.therapistId}>
+                    <Grid xs={12} sm={6} md={4} key={therapist.therapistId}>
                         <Card sx={{ textAlign: "center", p: 2, boxShadow: 3 }}>
-                            <Avatar
-                                src={`http://localhost:5253/Images/therapists/${therapist.therapistId}.png`}
-                                alt="תמונה"
-                                sx={{
-                                    width: 180,
-                                    height: 180,
-                                    margin: "0 auto",
-                                    mb: 2,
-                                }}
-                            />
-                            <CardContent>
-                                <Typography variant="h5">
-                                    {therapist.firstName} {therapist.lastName}
-                                </Typography>
-                                <Typography variant="body2" color="text.secondary">
-                                    {therapist.title} {therapist.specialization}
-                                </Typography>
-                            </CardContent>
+                            <Grid container alignItems="center" justifyContent="flex-end" direction="row-reverse">
+                                <Grid xs={5} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
+                                    <Avatar
+                                        src={`http://localhost:5253/Images/therapists/${therapist.therapistId}.png`}
+                                        alt="תמונה"
+                                        sx={{
+                                            width: 220,
+                                            height: 220,
+                                            mb: 2,
+                                            mr: 2
+                                        }}
+                                    />
+                                </Grid>
+                                <Grid xs={7}>
+                                    <CardContent sx={{ textAlign: "left" }}>
+                                        <Typography variant="h5">
+                                            {therapist.title} {therapist.firstName} {therapist.lastName}
+                                        </Typography>
+                                        <Typography variant="h6" color="text.secondary" sx={{ fontSize: '1.3rem', fontWeight: 500 }}>
+                                            {therapist.description}
+                                        </Typography>
+                                    </CardContent>
+                                </Grid>
+                            </Grid>
                         </Card>
                     </Grid>
                 ))}
