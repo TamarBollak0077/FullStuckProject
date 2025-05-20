@@ -1,5 +1,7 @@
 ﻿using Dal.Entities;
 using Microsoft.AspNetCore.Mvc;
+using RehubCenterServer.Models;
+
 namespace RehubCenterServer.Controllers
 {
     [Route("api/[controller]")]
@@ -81,11 +83,22 @@ namespace RehubCenterServer.Controllers
 
         // Login
         [HttpPost("login")]
-        public ActionResult Login([FromBody] int patientId)
+        public ActionResult Login([FromBody] PatientLoginRequest loginRequest)
         {
-            var patient = _patientService.GetByPatientId(patientId);
-            if (patient == null)
-                return NotFound(new { message = "ID does not exist in the system." });
+            if (loginRequest == null ||
+                string.IsNullOrWhiteSpace(loginRequest.FirstName) ||
+                string.IsNullOrWhiteSpace(loginRequest.LastName))
+            {
+                return BadRequest("All fields are required.");
+            }
+
+            var patient = _patientService.GetByPatientId(loginRequest.PatientId);
+            if (patient == null ||
+                !string.Equals(patient.FirstName, loginRequest.FirstName, StringComparison.OrdinalIgnoreCase) ||
+                !string.Equals(patient.LastName, loginRequest.LastName, StringComparison.OrdinalIgnoreCase))
+            {
+                return NotFound(new { message = "Patient details do not match our records." });
+            }
 
             return Ok(new
             {
@@ -95,6 +108,7 @@ namespace RehubCenterServer.Controllers
                 lastName = patient.LastName
             });
         }
+
         [HttpPost("signup")]
         public ActionResult SignUp([FromBody] Patient newPatient)
         {
@@ -116,7 +130,5 @@ namespace RehubCenterServer.Controllers
             _patientService.Create(newPatient);
             return Created("", new { message = "Successfully registered.", patientId = newPatient.PatientId });
         }
-
-
     }
 }
