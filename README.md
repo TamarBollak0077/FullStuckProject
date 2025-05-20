@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-# RehubCenterProject / FullStuckProject
 
-=======
 # **RehubCenterProject / FullStackProject**
 
 ---
@@ -106,4 +103,4 @@ npm run dev
 ```
 - This will launch the React development server at http://localhost:5253  
 - Ensure the backend is running to handle API requests  
->>>>>>> cea7f262b2e29ac0a0fc93f618fc5467922301f4
+
