@@ -3,18 +3,25 @@ import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 const navItems = [
-  { label: 'בית', path: '/' },
-  { label: 'אזור אישי', path: '/login', key: 'profile' },
-  { label: 'אודות', path: '/about', key: 'about' },
-  { label: 'מטפלים', path: '/therapists', key: 'therapists' },
-  { label: 'התחברות', path: '/signup', key: 'login' },
+  { label: 'Home', path: '/' },
+  { label: 'Personal Area', path: '/login', key: 'profile' },
+  { label: 'About', path: '/About', key: 'about' }, // <-- אות קטנה
+  { label: 'Our Therapists', path: '/therapists', key: 'therapists' },
+  { label: 'Connection', path: '/signup', key: 'login' },
 ];
 
 const NavBar = () => (
-  <AppBar position="static" color="primary">
+  <AppBar
+    position="static"
+    sx={{
+      backgroundColor: '#223a5e', // כחול ג'ינס כהה
+      color: '#fff',
+    }}
+    elevation={2}
+  >
     <Toolbar>
       <Typography variant="h6" sx={{ flexGrow: 1 }}>
-        מרכז שיקום
+     Retorno
       </Typography>
       <Box>
         {navItems.map((item) => (

@@ -21,7 +21,11 @@ export default function Login() {
       const response = await fetch('http://localhost:5253/api/patient/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ patientId: formData.patientId }), // שולח רק ת"ז
+        body: JSON.stringify({
+          patientId: formData.patientId,
+          firstName: formData.firstName,
+          lastName: formData.lastName
+        }),
       });
 
       if (!response.ok) {
@@ -39,12 +43,45 @@ export default function Login() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="p-4 space-y-2">
-      <h2>Login</h2>
-      <input name="patientId" placeholder="ID" value={formData.patientId} onChange={handleChange} required />
-      <input name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} required />
-      <input name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} required />
-      <button type="submit">Login</button>
-    </form>
+    <div
+      style={{
+        minHeight: '100vh',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        background: 'linear-gradient(to right, #f5f7fa, #c3cfe2)',
+      }}
+    >
+      <form
+        onSubmit={handleSubmit}
+        style={{
+          background: '#fff',
+          padding: '32px 28px',
+          borderRadius: '16px',
+          boxShadow: '0 4px 24px rgba(34,58,94,0.12)',
+          minWidth: 320,
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '16px',
+        }}
+      >
+        <h2 style={{ textAlign: 'center', color: '#223a5e', marginBottom: 12 }}>Login</h2>
+        <input name="patientId" placeholder="ID" value={formData.patientId} onChange={handleChange} required />
+        <input name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} required />
+        <input name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} required />
+        <button type="submit" style={{
+          background: '#223a5e',
+          color: '#fff',
+          border: 'none',
+          borderRadius: 8,
+          padding: '10px 0',
+          fontWeight: 600,
+          fontSize: '1rem',
+          cursor: 'pointer'
+        }}>
+          Login
+        </button>
+      </form>
+    </div>
   );
 }
