@@ -9,5 +9,8 @@ namespace BL.Api
     public interface IBlManager
     {
         IBlPatient Patient { get; }
+
+        IBlPatientSessions PatientSessions { get; }
+
     }
 }

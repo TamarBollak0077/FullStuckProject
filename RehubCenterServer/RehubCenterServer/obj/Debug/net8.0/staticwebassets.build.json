@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bMsRTjLDAPFwxsF1MDBbsE5qcYuLaVWqeiuAVKTTpzQ=",
+  "Source": "RehubCenterServer",
+  "BasePath": "_content/RehubCenterServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
