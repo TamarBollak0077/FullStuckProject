@@ -5,7 +5,7 @@ namespace Dal.Entities;
 
 public partial class Therapist
 {
-    public int TherapistId { get; set; }
+    public string TherapistId { get; set; }
 
     public string? Title { get; set; }
 

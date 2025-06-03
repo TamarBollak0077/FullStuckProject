@@ -9,7 +9,7 @@ public partial class PatientSession
 
     public int SessionId { get; set; }
 
-    public int PatientId { get; set; }
+    public string PatientId { get; set; }
 
     public int TherapistId { get; set; }
 

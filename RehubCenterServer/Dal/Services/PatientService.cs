@@ -47,7 +47,7 @@ namespace Dal.Services
         {
             return rehubDbContext.Patients.ToList();
         }
-        public Patient? GetById(int id)
+        public Patient? GetById(string id)
         {
             return rehubDbContext.Patients.FirstOrDefault(p => p.PatientId == id);
         }
@@ -73,7 +73,7 @@ namespace Dal.Services
         }
 
        //חיפוש לפי ID
-        public Patient? GetByPatientId(int id)
+        public Patient? GetByPatientId(string id)
         {
             return rehubDbContext.Patients.FirstOrDefault(p => p.PatientId == id);
         }

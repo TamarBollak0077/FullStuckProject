@@ -23,7 +23,7 @@ namespace BL.Services
             throw new NotImplementedException();
         }
 
-        public void Delete(int id)
+        public void Delete(string id)
         {
             throw new NotImplementedException();
         }
@@ -39,7 +39,7 @@ namespace BL.Services
 
         }
 
-        public void UpdateContactInfo(int therapistId, string newContactInfo)
+        public void UpdateContactInfo(string therapistId, string newContactInfo)
         {
             throw new NotImplementedException();
         }

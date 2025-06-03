@@ -16,31 +16,8 @@
 # Mono auto generated files
 mono_crash.*
 
-## Build output
-bin/
-obj/
-
-## User-specific files
-.vs/
-*.user
-*.suo
-
-## Auto-generated
-*.cache
-*.log
-*.dbmdl
-
-## NuGet
-project.lock.json
-project.nuget.cache
-*.nuget.g.props
-*.nuget.g.targets
-
-## Others
-*.pdb
-*.exe
-*.dll
-*.csproj.FileListAbsolute.txt
+**/obj/
+**/bin/
 
 # Build results
 [Dd]ebug/

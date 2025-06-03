@@ -1,0 +1,290 @@
+.about-container {
+  max-width: 950px;         /* הצרנו את הרוחב */
+  margin: 64px auto;        /* יותר ריווח מלמעלה ולמטה */
+  padding: 40px 28px;       /* יותר ריווח פנימי */
+  background: linear-gradient(120deg, #f5f7fa 60%, #e3f0ff 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(34,58,94,0.10);
+}
+
+.about-title {
+  text-align: left;
+  color: #223a5e;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 36px;      /* יותר ריווח מתחת לכותרת */
+  animation: fadeInDown 1.1s cubic-bezier(.4,2,.6,1);
+}
+
+@keyframes fadeInDown {
+  0% { opacity: 0; transform: translateY(-40px);}
+  100% { opacity: 1; transform: translateY(0);}
+}
+
+.about-section {
+  background: rgba(255,255,255,0.85);
+  border-radius: 12px;
+  padding: 24px 18px;
+  margin-bottom: 40px;
+  box-shadow: 0 1px 8px rgba(34,58,94,0.04);
+  font-family: 'Segoe UI', 'Alef', Arial, sans-serif;
+  font-size: 1.13rem;
+  line-height: 1.85;
+  color: #223a5e;
+  letter-spacing: 0.01em;
+}
+
+.about-section p,
+.about-section br {
+  margin-bottom: 12px;
+  display: block;
+}
+
+.about-section > b {
+  display: block;
+  font-size: 1.18rem;
+  color: #153A6F;
+  margin-bottom: 10px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* הסר קו מתחת לכותרות משנה */
+.about-section > b::after {
+  content: none;
+}
+
+.addiction-types-list {
+  margin-top: 32px;         /* יותר ריווח מעל */
+  margin-bottom: 32px;      /* יותר ריווח מתחת */
+}
+
+.addiction-type-card {
+  margin-bottom: 36px;      /* יותר ריווח בין כרטיסים */
+  background: rgba(240,245,255,0.92);
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(34,58,94,0.10);
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.addiction-type-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px #b0b8c9;
+}
+
+.addiction-type-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #223a5e;
+  margin-bottom: 8px;
+}
+
+.addiction-type-desc {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* Gallery */
+.addiction-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 36px;
+  margin: 32px 0;
+  flex-wrap: wrap;
+}
+
+.addiction-gallery-link {
+  text-decoration: none;
+  transition: transform 0.22s cubic-bezier(.4,2,.6,1);
+  will-change: transform;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(34,58,94,0.13);
+  background: #fff;
+  text-align: center;
+  width: 120px;
+  display: block;
+  position: relative;
+}
+
+.addiction-gallery-link:hover,
+.addiction-gallery-link:focus {
+  transform: scale(1.08);
+  z-index: 2;
+  box-shadow: 0 8px 32px rgba(34,58,94,0.18);
+}
+
+.addiction-gallery-link:hover .addiction-gallery-img,
+.addiction-gallery-link:focus .addiction-gallery-img {
+  filter: brightness(1.08) contrast(1.08);
+  transform: scale(1.08);
+}
+
+.addiction-gallery-img {
+  width: 120px !important;
+  height: 120px !important;
+  object-fit: cover;
+  display: block;
+  transition: filter 0.2s, transform 0.22s cubic-bezier(.4,2,.6,1);
+  margin: 0 auto;
+}
+
+.addiction-gallery-title {
+  font-weight: 600;
+  color: #223a5e;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.addiction-gallery-info-icon {
+  font-size: 20px !important;
+  color: #4F8EDC;
+  margin-left: 4px;
+}
+
+/* Success Stories */
+.success-stories-section {
+  background: rgba(255,255,255,0.93);
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(34,58,94,0.08);
+  padding: 36px 24px 32px 24px;
+  margin: 0 auto 44px auto;
+  max-width: 800px;
+  font-family: 'Segoe UI', 'Alef', Arial, sans-serif;
+  font-size: 1.13rem;
+  line-height: 1.85;
+  color: #223a5e;
+}
+
+.success-stories-list {
+  margin: 32px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.success-story-card {
+  background: linear-gradient(120deg, #fafdff 0%, #e3f0ff 100%);
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(34,58,94,0.10);
+  padding: 24px;
+  max-width: 350px;
+  min-width: 260px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  transition: box-shadow 0.2s;
+}
+
+.success-story-card:hover,
+.success-story-card:focus {
+  box-shadow: 0 8px 32px rgba(34,58,94,0.18);
+}
+
+.success-story-card:nth-child(2) {
+  background: linear-gradient(120deg, #f7e8ff 0%, #f9f9f9 100%);
+}
+.success-story-card:nth-child(3) {
+  background: linear-gradient(120deg, #e8fff3 0%, #f9f9f9 100%);
+}
+
+.success-story-title {
+  font-weight: 700;
+  color: #153A6F;
+  margin-bottom: 8px;
+}
+
+.success-story-text {
+  font-style: italic;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.success-story-author {
+  color: #888;
+  font-size: 0.95rem;
+}
+
+.success-story-text,
+.success-story-title,
+.success-story-author {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* Contact & Signup */
+.contact-link {
+  color: #4F8EDC;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.signup-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.signup-btn {
+  background: linear-gradient(90deg, #153A6F 0%, #4F8EDC 100%);
+  color: #fff;
+  padding: 14px 38px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 4px 16px rgba(34,58,94,0.13);
+  transition: background 0.2s, transform 0.22s cubic-bezier(.4,2,.6,1), box-shadow 0.2s;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+.signup-btn:hover,
+.signup-btn:focus {
+  transform: scale(1.13);
+  box-shadow: 0 8px 32px rgba(34,58,94,0.18);
+  background: linear-gradient(90deg, #4F8EDC 0%, #153A6F 100%);
+}
+
+/* Contact Section */
+.contact-section {
+  background: rgba(255,255,255,0.93);
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(34,58,94,0.08);
+  padding: 36px 24px 32px 24px;
+  margin: 0 auto 44px auto;
+  max-width: 800px;
+  font-family: 'Segoe UI', 'Alef', Arial, sans-serif;
+  font-size: 1.13rem;
+  line-height: 1.85;
+  color: #223a5e;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  .addiction-type-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .addiction-gallery {
+    gap: 18px;
+  }
+  .success-stories-list {
+    flex-direction: column;
+    gap: 18px;
+  }
+}

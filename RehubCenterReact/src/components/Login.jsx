@@ -1,97 +1,71 @@
-import React, { useState } from 'react';
-import { Box, TextField, Button, Typography, Paper } from '@mui/material';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import '../CSS/Login.css';
 
-const softGreen = '#4CAF50';        // ירוק רך
-const softTurquoise = '#4DB6AC';    // טורקיז רך
-const warmDarkGray = '#37474F';     // אפור כהה חם
-const offWhite = '#FAFAFA';         // לבן נקי
+export default function Login() {
+  const [formData, setFormData] = useState({
+    patientId: '',
+    firstName: '',
+    lastName: '',
+  });
 
-const Login = () => {
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
+  const navigate = useNavigate();
 
-    const handleLogin = () => {
-        console.log('Logging in with:', email, password);
-    };
+  const handleChange = (e) => {
+    setFormData((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+  };
 
-    return (
-        <Box
-            sx={{
-                backgroundColor: warmDarkGray,
-                minHeight: '100vh',
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                p: 2,
-            }}
-        >
-            <Paper
-                elevation={6}
-                sx={{
-                    backgroundColor: '#455A64',
-                    padding: 4,
-                    borderRadius: 4,
-                    width: '100%',
-                    maxWidth: 400,
-                }}
-            >
-                <Typography
-                    variant="h5"
-                    sx={{ color: softGreen, mb: 3, textAlign: 'center', fontWeight: 'bold' }}
-                >
-                    התחברות
-                </Typography>
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
-                <TextField
-                    label="אימייל"
-                    variant="outlined"
-                    fullWidth
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    sx={{
-                        mb: 2,
-                        '& .MuiInputBase-root': {
-                            borderRadius: 2,
-                            backgroundColor: offWhite,
-                        },
-                    }}
-                />
+    try {
+      const response = await fetch('http://localhost:5253/api/patient/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          patientId: formData.patientId,
+          firstName: formData.firstName,
+          lastName: formData.lastName
+        }),
+      });
 
-                <TextField
-                    label="סיסמה"
-                    type="password"
-                    variant="outlined"
-                    fullWidth
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                    sx={{
-                        mb: 3,
-                        '& .MuiInputBase-root': {
-                            borderRadius: 2,
-                            backgroundColor: offWhite,
-                        },
-                    }}
-                />
+      if (response.status === 204) {
+        alert('Login failed: No content returned');
+        return;
+      }
 
-                <Button
-                    variant="contained"
-                    fullWidth
-                    onClick={handleLogin}
-                    sx={{
-                        backgroundColor: softTurquoise,
-                        color: offWhite,
-                        fontWeight: 'bold',
-                        borderRadius: 2,
-                        '&:hover': {
-                            backgroundColor: softGreen,
-                        },
-                    }}
-                >
-                    התחבר
-                </Button>
-            </Paper>
-        </Box>
-    );
-};
+      const data = await response.json();
 
-export default Login;
+      if (!response.ok) {
+        alert(data.message || 'Login failed');
+        return;
+      }
+
+      alert(`Welcome, ${data.firstName} ${data.lastName}`);
+      localStorage.setItem('user', JSON.stringify(data));
+      navigate('/personal-area');
+    } catch (err) {
+      alert('Network error');
+    }
+  };
+
+  return (
+    <div className="login-bg">
+      <form className="login-form" onSubmit={handleSubmit}>
+        <h2 className="login-title">Login</h2>
+        <input name="patientId" placeholder="ID" value={formData.patientId} onChange={handleChange} required />
+        <input name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} required />
+        <input name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} required />
+        <button type="submit" className="login-btn">
+          Login
+        </button>
+        <div style={{ marginTop: '16px', textAlign: 'center' }}>
+          <a href="/signup" className="signup-link">To Sign Up</a>
+        </div>
+      </form>
+    </div>
+  );
+}

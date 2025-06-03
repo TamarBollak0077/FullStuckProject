@@ -34,7 +34,7 @@ namespace BL.Services
             Console.WriteLine("welcome " + p.FirstName + " " + p.LastName);
         }
 
-        public void Delete(int id)
+        public void Delete(string id)
         {
             patient.Delete(patient.GetById(id));
             Console.WriteLine("patient " + id + " deleted successfully!");
@@ -49,7 +49,7 @@ namespace BL.Services
             return patient.Read().Select(p => p.ContactInfo);
         }
 
-        public void UpdateContactInfo(int patientId, string newContactInfo)
+        public void UpdateContactInfo(string patientId, string newContactInfo)
         {
             var existingPatient = patient.GetById(patientId);
             if (existingPatient == null)
@@ -62,7 +62,7 @@ namespace BL.Services
             Console.WriteLine("Contact info for patient " + existingPatient.FirstName + " " + existingPatient.LastName + " updated successfully.");
         }
 
-        public Patient? GetByPatientId(int id)
+        public Patient? GetByPatientId(string id)
         {
             return patient.GetByPatientId(id);
         }

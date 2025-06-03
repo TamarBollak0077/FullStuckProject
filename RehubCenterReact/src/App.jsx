@@ -5,17 +5,19 @@ import Home from './components/Home';
 import GetAllTherapistsDetails from './components/GetAllTherapistsDetails';
 import GetAllPatientsContactInfo from './components/GetAllPatientsContactInfo';
 import Login from './components/Login';
-import AddPatient from './components/AddPatient';
+import Signup from './components/Signup';
 import SignupSuccess from './components/SignupSuccess';
+import About from './components/About';
+import PersonalArea from './components/PersonalArea';
 import './App.css';
 
 // עמודים נוספים
-const About = () => (
-  <div style={{ padding: 32 }}>
-    <h2>אודות</h2>
-    <p>מידע על המרכז...</p>
-  </div>
-);
+// const About = () => (
+//   <div style={{ padding: 32 }}>
+//     <h2>אודות</h2>
+//     <p>מידע על המרכז...</p>
+//   </div>
+// );
 
 function ForceHomeOnRefresh({ children }) {
   const location = useLocation();
@@ -35,11 +37,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/profile" element={<Navigate to="/login" replace />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/About" element={<About />} />
           <Route path="/therapists" element={<GetAllTherapistsDetails />} />
           <Route path="/patients-contact" element={<GetAllPatientsContactInfo />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<AddPatient />} />
+          <Route path="/personal-area" element={<PersonalArea />} />
+          <Route path="/signup" element={<Signup />} />
           <Route path="/signup-success" element={<SignupSuccess />} />
         </Routes>
       </ForceHomeOnRefresh>

@@ -11,8 +11,8 @@ namespace BL.Api
     {
         void Create(Therapist t);
         IEnumerable<Therapist> Read(); // להוסיף מתודה להחזרת רשימת מטפלים
-        void UpdateContactInfo(int therapistId, string newContactInfo);
-        void Delete(int id); // להוסיף מתודה למחיקת מטפל
+        void UpdateContactInfo(string therapistId, string newContactInfo);
+        void Delete(string id); // להוסיף מתודה למחיקת מטפל
         public IEnumerable<string> GetContactInfo();
     }
 }

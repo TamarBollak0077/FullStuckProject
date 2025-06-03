@@ -24,8 +24,10 @@ namespace Dal.Migrations
 
             modelBuilder.Entity("Dal.Entities.Patient", b =>
                 {
-                    b.Property<int>("PatientId")
-                        .HasColumnType("int");
+                    b.Property<string>("PatientId")
+                        .HasMaxLength(50)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(50)");
 
                     b.Property<string>("ContactInfo")
                         .IsRequired()
@@ -61,17 +63,19 @@ namespace Dal.Migrations
             modelBuilder.Entity("Dal.Entities.PatientSession", b =>
                 {
                     b.Property<int>("PatientSessionId")
-                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(50)
+                        .IsUnicode(false)
                         .HasColumnType("int")
                         .HasColumnName("PatientSessionID");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PatientSessionId"));
 
                     b.Property<TimeOnly>("Hour")
                         .HasColumnType("time");
 
-                    b.Property<int>("PatientId")
-                        .HasColumnType("int")
+                    b.Property<string>("PatientId")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(50)")
                         .HasColumnName("PatientID");
 
                     b.Property<DateOnly>("SessionDate")
@@ -88,6 +92,8 @@ namespace Dal.Migrations
                         .HasColumnType("varchar(50)");
 
                     b.Property<int>("TherapistId")
+                        .HasMaxLength(50)
+                        .IsUnicode(false)
                         .HasColumnType("int")
                         .HasColumnName("TherapistID");
 
@@ -101,8 +107,10 @@ namespace Dal.Migrations
 
             modelBuilder.Entity("Dal.Entities.Therapist", b =>
                 {
-                    b.Property<int>("TherapistId")
-                        .HasColumnType("int")
+                    b.Property<string>("TherapistId")
+                        .HasMaxLength(50)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(50)")
                         .HasColumnName("TherapistID");
 
                     b.Property<string>("ContactInfo")

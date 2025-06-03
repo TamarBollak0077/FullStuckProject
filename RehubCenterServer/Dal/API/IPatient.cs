@@ -10,8 +10,8 @@ namespace Dal.API
 {
     public interface IPatient : ICrud<Patient>
     {
-        public Patient GetById(int id);
-        Patient? GetByPatientId(int id);
+        public Patient GetById(string id);
+        Patient? GetByPatientId(string id);
 
     }
 }

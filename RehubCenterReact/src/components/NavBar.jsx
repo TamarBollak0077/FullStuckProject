@@ -1,72 +1,117 @@
-import React from 'react';
-import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { AppBar, Toolbar, Typography, Button, Box, Menu, MenuItem } from '@mui/material';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import Tooltip from '@mui/material/Tooltip';
 
 const navItems = [
-  { label: 'בית', path: '/' },
-  { label: 'אזור אישי', path: '/login', key: 'profile' },
-  { label: 'אודות', path: '/about', key: 'about' },
-  { label: 'מטפלים', path: '/therapists', key: 'therapists' },
-  { label: 'התחברות', path: '/signup', key: 'login' },
+  { label: 'Home', path: '/' },
+  { label: 'Personal Area', path: '/login', key: 'profile', icon: <AccountCircleIcon /> },
+  { label: 'About', path: '/About', key: 'about', subMenu: [
+      { label: 'Our Method', anchor: 'method' },
+      { label: 'Types of Addictions', anchor: 'addictions' },
+      { label: 'Addiction Info', anchor: 'addiction-info' }, // חדש!
+      { label: 'Contact', anchor: 'contact' }
+    ]
+  },
+  { label: 'Our Therapists', path: '/therapists', key: 'therapists' },
+  { label: 'Connection', path: '/signup', key: 'login' },
 ];
 
-const vibrantGreen = '#43D673';
-const softTurquoise = '#4DB6AC';
-const darkGray = '#23272A';
-const white = '#FFFFFF';
-const lightGray = '#F5F5F5';
+const NavBar = () => {
+  const [anchorEl, setAnchorEl] = useState(null);
+  const navigate = useNavigate();
+  const location = useLocation();
 
-const NavBar = () => (
-  <AppBar
-    position="fixed"
-    elevation={4}
-    sx={{
-      background: `linear-gradient(90deg, ${darkGray} 70%, ${softTurquoise} 100%)`,
-      borderBottom: `1px solid ${vibrantGreen}`,
-      boxShadow: '0 4px 10px rgba(0,0,0,0.1)',
-      zIndex: 1201,
-    }}
-  >
-    <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
-      <Typography
-        variant="h6"
-        sx={{
-          color: vibrantGreen,
-          fontWeight: 'bold',
-          letterSpacing: 1,
-          textShadow: '0 1px 1px rgba(0,0,0,0.2)',
-        }}
-      >
-        מרכז שיקום
-      </Typography>
-      <Box sx={{ display: 'flex', gap: 1 }}>
-        {navItems.map((item) => (
-          <Button
-            key={item.key || item.path}
-            component={Link}
-            to={item.path}
-            sx={{
-              color: darkGray,
-              backgroundColor: white,
-              borderRadius: '24px',
-              fontWeight: 'bold',
-              px: 2.5,
-              py: 1,
-              fontSize: '0.9rem',
-              textTransform: 'none',
-              transition: '0.3s ease',
-              '&:hover': {
-                backgroundColor: vibrantGreen,
-                color: white,
-              },
-            }}
-          >
-            {item.label}
-          </Button>
-        ))}
-      </Box>
-    </Toolbar>
-  </AppBar>
-);
+  const handleMenuOpen = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleMenuClose = () => {
+    setAnchorEl(null);
+  };
+
+  // Scroll to anchor in About page
+  const handleSubMenuClick = (anchor) => {
+    handleMenuClose();
+    if (location.pathname !== '/About') {
+      navigate(`/About#${anchor}`);
+    } else {
+      const el = document.getElementById(anchor);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        window.location.hash = anchor;
+      }
+    }
+  };
+
+  return (
+    <AppBar
+      position="fixed" // במקום "static"
+      sx={{
+        backgroundColor: '#223a5e',
+        color: '#fff',
+        zIndex: 1300, // כדי שיהיה מעל כל התוכן
+      }}
+      elevation={2}
+    >
+      <Toolbar>
+        <Typography variant="h6" sx={{ flexGrow: 1 }}>
+          Retorno
+        </Typography>
+        <Box>
+          {navItems.map((item) =>
+            item.subMenu ? (
+              <React.Fragment key={item.key || item.path}>
+                <Button
+                  color="inherit"
+                  onClick={handleMenuOpen}
+                  sx={{ ml: 2 }}
+                  aria-controls="about-menu"
+                  aria-haspopup="true"
+                  component={Link}
+                  to={item.path}
+                >
+                  {item.label}
+                </Button>
+                <Menu
+                  id="about-menu"
+                  anchorEl={anchorEl}
+                  open={Boolean(anchorEl)}
+                  onClose={handleMenuClose}
+                  MenuListProps={{ onMouseLeave: handleMenuClose }}
+                >
+                  {item.subMenu.map((sub) => (
+                    <MenuItem
+                      key={sub.anchor}
+                      onClick={() => handleSubMenuClick(sub.anchor)}
+                    >
+                      {sub.label}
+                    </MenuItem>
+                  ))}
+                </Menu>
+              </React.Fragment>
+            ) : (
+              <Tooltip title={item.label === 'Personal Area' ? 'Go to your personal area' : ''} key={item.key || item.path}>
+                <Button
+                  color="inherit"
+                  component={Link}
+                  to={item.path}
+                  sx={{ ml: 2 }}
+                  startIcon={item.icon}
+                  disableElevation
+                  disableRipple={false}
+                >
+                  {item.label}
+                </Button>
+              </Tooltip>
+            )
+          )}
+        </Box>
+      </Toolbar>
+    </AppBar>
+  );
+};
 
 export default NavBar;

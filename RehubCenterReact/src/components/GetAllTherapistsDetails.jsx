@@ -1,108 +1,103 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { setTherapists } from '../redux/therapistsSlice';
+import { removeTherapist, setTherapists, updateTherapist } from '../redux/therapistsSlice';
 import {
     Card,
+    CardContent,
     Avatar,
     Typography,
     Grid,
+    IconButton,
+    Tooltip
 } from "@mui/material";
+import InstagramIcon from '@mui/icons-material/Instagram';
+import EmailIcon from '@mui/icons-material/Email';
+import '../CSS/GetAllTherapistsDetails.css'; // ייבוא קובץ ה-CSS החדש
 
-const vibrantGreen = '#43D673';     // ירוק חי
-const darkGray = '#23272A';         // אפור כהה
-const white = '#FFFFFF';
-const mediumGray = '#ECECEC';       // רקע מעט כהה יותר
 
 const GetAllTherapistsDetails = () => {
     const dispatch = useDispatch();
-    const therapists = useSelector(state => state.therapists || []);
+    const therapists = useSelector(state => state.therapists || []); // הגדרת ברירת מחדל
+
+    const handleRemoveTherapist = (therapistId) => {
+        dispatch(removeTherapist({ id: therapistId }));
+    };
+
+    const handleupdateTherapist = (therapist) => {
+        dispatch(updateTherapist(therapist));
+    };
+
 
     React.useEffect(() => {
         const fetchTherapists = async () => {
             try {
                 const response = await fetch('http://localhost:5253/api/therapist');
-                if (!response.ok) throw new Error('Network response was not ok');
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
                 const data = await response.json();
                 dispatch(setTherapists(data));
             } catch (error) {
-                console.error('בעיה בשליפת הנתונים:', error);
+                console.error('There was a problem with your fetch operation:', error);
             }
         };
+
         fetchTherapists();
     }, [dispatch]);
 
     return (
-        <div
-            style={{
-                minHeight: "100vh",
-                backgroundColor: mediumGray,
-                paddingTop: "100px",
-                paddingBottom: "40px",
-            }}
-        >
-            <Typography
-                variant="h4"
-                align="center"
-                sx={{
-                    color: vibrantGreen,
-                    fontWeight: 'bold',
-                    mb: 6,
-                    letterSpacing: 1,
-                }}
-            >
-                המטפלים שלנו
-            </Typography>
 
-            <Grid
-                container
-                spacing={4}
-                justifyContent="center"
-                sx={{
-                    maxWidth: "1200px",
-                    margin: "0 auto",
-                    padding: "0 16px",
-                }}
-            >
+        <div className="therapists-details">
+           <h1 style={{ textAlign: "left", color: "#223a5e", fontWeight: 700, fontSize: "2rem", marginBottom: 24 }}>
+             {/* Our Therapists */}
+           </h1>
+
+            <Grid container spacing={3}>
                 {therapists.map((therapist) => (
-                    <Grid item xs={12} sm={6} md={4} key={therapist.therapistId}>
-                        <Card
-                            sx={{
-                                p: 3,
-                                boxShadow: "0 2px 12px rgba(0,0,0,0.08)",
-                                borderRadius: "20px",
-                                background: white,
-                                transition: "transform 0.2s, box-shadow 0.2s",
-                                '&:hover': {
-                                    transform: "translateY(-4px)",
-                                    boxShadow: "0 6px 20px rgba(67,214,115,0.2)",
-                                },
-                            }}
-                        >
-                            <Grid container alignItems="center" spacing={2}>
-                                {/* תמונה */}
-                                <Grid item xs={4}>
-                                    <Avatar
-                                        src={`http://localhost:5253/Images/therapists/${therapist.therapistId}.png`}
-                                        alt="תמונה"
-                                        sx={{
-                                            width: 110,
-                                            height: 110,
-                                            border: `2.5px solid ${vibrantGreen}`,
-                                            backgroundColor: mediumGray,
-                                        }}
-                                    />
-                                </Grid>
-
-                                {/* פרטים */}
-                                <Grid item xs={8}>
-                                    <Typography variant="h6" sx={{ color: vibrantGreen, fontWeight: 'bold' }}>
-                                        {therapist.title} {therapist.firstName} {therapist.lastName}
-                                    </Typography>
-                                    <Typography variant="body2" sx={{ color: darkGray, mt: 1 }}>
-                                        {therapist.description}
-                                    </Typography>
-                                </Grid>
-                            </Grid>
+                    <Grid xs={12} sm={6} md={4} key={therapist.therapistId}>
+                        <Card className="therapist-card">
+                            <Grid container alignItems="center" justifyContent="flex-start" direction="row">
+    <Grid item xs={5} sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 1 }}>
+        <Avatar
+            src={`http://localhost:5253/Images/therapists/${therapist.therapistId}.png`}
+            alt="Profile"
+            className="therapist-avatar"
+            sx={{ width: 70, height: 70 }}
+        />
+        <div className="therapist-icons">
+            <Tooltip title="Instagram">
+                <IconButton
+                    className="instagram"
+                    component="a"
+                    href={therapist.instagram ? therapist.instagram : "#"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <InstagramIcon fontSize="large" />
+                </IconButton>
+            </Tooltip>
+            <Tooltip title="Send Email">
+                <IconButton
+                    className="email"
+                    component="a"
+                    href={`mailto:${therapist.ContactInfo ? therapist.ContactInfo : ''}`}
+                >
+                    <EmailIcon fontSize="large" />
+                </IconButton>
+            </Tooltip>
+        </div>
+    </Grid>
+    <Grid item xs={7}>
+        <CardContent>
+            <Typography className="therapist-name">
+                {therapist.title} {therapist.firstName} {therapist.lastName}
+            </Typography>
+            <Typography className="therapist-desc">
+                {therapist.description}
+            </Typography>
+        </CardContent>
+    </Grid>
+</Grid>
                         </Card>
                     </Grid>
                 ))}

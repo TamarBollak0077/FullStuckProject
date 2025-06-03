@@ -3,10 +3,10 @@ public interface IBlPatient
 {
     void Create(Patient p);
     IEnumerable<Patient> Read(); // להוסיף מתודה להחזרת רשימת מטופלים
-    void UpdateContactInfo(int patientId, string newContactInfo);
-    void Delete(int id); // להוסיף מתודה למחיקת מטופל
+    void UpdateContactInfo(string patientId, string newContactInfo);
+    void Delete(string id); // להוסיף מתודה למחיקת מטופל
     public IEnumerable<string> GetContactInfo();
 
-    Patient? GetByPatientId(int id);
+    Patient? GetByPatientId(string id);
 
 }

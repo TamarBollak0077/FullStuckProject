@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\USER\\RehubCenterProject\\RehubCenterServer\\",
   "Documents": [
     {
@@ -25,9 +26,24 @@
     {
       "AbsoluteMoniker": "D:0:0:{4CB29E11-E731-4FC1-B948-9A704B035DCE}|RehubCenterServer\\RehubCenterServer.csproj|c:\\users\\user\\rehubcenterproject\\rehubcenterserver\\rehubcenterserver\\controllers\\therapistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CB29E11-E731-4FC1-B948-9A704B035DCE}|RehubCenterServer\\RehubCenterServer.csproj|solutionrelative:rehubcenterserver\\controllers\\therapistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "O:\\1 \u05EA\u05DE\u05E8\\0 \u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD \u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD \u05D7\u05D5\u05E8\u05E3 \u05EA\u05E9\u05E4\u05D3\\\u05E9\u05E0\u05D4 \u05D1\\p\\RehubCenterServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/O__1_\u05EA\u05DE\u05E8_0_\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD_\u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD_\u05D7\u05D5\u05E8\u05E3_\u05EA\u05E9\u05E4\u05D3_\u05E9\u05E0\u05D4_\u05D1_P_REHUBCENTERSERVER_DAL_DATABASE_REHUBDATABASE.MDF/True/SqlTable/dbo.Therapists.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD__\u05E1\u05DE\u05D9\u05E0\u05E8_PROJECT2_FULLSTUCKPROJECT_REHUBCENTERSERVER_DAL_DATABASE_REHUBDATABASE.MDF/True/SqlTable/dbo.Therapists.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{4CB29E11-E731-4FC1-B948-9A704B035DCE}|RehubCenterServer\\RehubCenterServer.csproj|o:\\1 \u05EA\u05DE\u05E8\\0 \u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD \u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD \u05D7\u05D5\u05E8\u05E3 \u05EA\u05E9\u05E4\u05D3\\\u05E9\u05E0\u05D4 \u05D1\\p\\rehubcenterserver\\rehubcenterserver\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB29E11-E731-4FC1-B948-9A704B035DCE}|RehubCenterServer\\RehubCenterServer.csproj|solutionrelative:rehubcenterserver\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> bc192f6 (working on personal area fitchers)
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|O:\\1 \u05EA\u05DE\u05E8\\0 \u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD \u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD \u05D7\u05D5\u05E8\u05E3 \u05EA\u05E9\u05E4\u05D3\\\u05E9\u05E0\u05D4 \u05D1\\p\\RehubCenterServer\\Dal\\Migrations\\20250603211028_ChangeIdsToString.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dal\\Migrations\\20250603211028_ChangeIdsToString.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|o:\\1 \u05EA\u05DE\u05E8\\0 \u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD \u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD \u05D7\u05D5\u05E8\u05E3 \u05EA\u05E9\u05E4\u05D3\\\u05E9\u05E0\u05D4 \u05D1\\p\\rehubcenterserver\\bl\\services\\therapistsblservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{381B8292-B761-4778-A568-F4DC65E94D7A}|BL\\BL.csproj|solutionrelative:bl\\services\\therapistsblservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,6 +53,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -97,11 +114,23 @@
               "Title": "dbo.Therapists.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD__\u05E1\u05DE\u05D9\u05E0\u05E8_PROJECT2_FULLSTUCKPROJECT_REHUBCENTERSERVER_DAL_DATABASE_REHUBDATABASE.MDF/True/SqlTable/dbo.Therapists.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD__\u05E1\u05DE\u05D9\u05E0\u05E8_PROJECT2_FULLSTUCKPROJECT_REHUBCENTERSERVER_DAL_DATABASE_REHUBDATABASE.MDF/True/SqlTable/dbo.Therapists.sql",
+=======
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.Therapists [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/O__1_\u05EA\u05DE\u05E8_0_\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD_\u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD_\u05D7\u05D5\u05E8\u05E3_\u05EA\u05E9\u05E4\u05D3_\u05E9\u05E0\u05D4_\u05D1_P_REHUBCENTERSERVER_DAL_DATABASE_REHUBDATABASE.MDF/True/SqlTable/dbo.Therapists.sql",
+              "ToolTip": "dbo.Therapists [Data]",
+>>>>>>> bc192f6 (working on personal area fitchers)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-22T20:31:45.551Z"
+              "WhenOpened": "2025-06-03T22:22:52.931Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 5,
               "Title": "TherapistController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\RehubCenterProject\\RehubCenterServer\\RehubCenterServer\\Controllers\\TherapistController.cs",
@@ -111,19 +140,52 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T11:02:43.302Z",
+=======
+              "DocumentIndex": 1,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "O:\\1 \u05EA\u05DE\u05E8\\0 \u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD \u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD \u05D7\u05D5\u05E8\u05E3 \u05EA\u05E9\u05E4\u05D3\\\u05E9\u05E0\u05D4 \u05D1\\p\\RehubCenterServer\\RehubCenterServer\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "RehubCenterServer\\Controllers\\PatientController.cs",
+              "ToolTip": "O:\\1 \u05EA\u05DE\u05E8\\0 \u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD \u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD \u05D7\u05D5\u05E8\u05E3 \u05EA\u05E9\u05E4\u05D3\\\u05E9\u05E0\u05D4 \u05D1\\p\\RehubCenterServer\\RehubCenterServer\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "RehubCenterServer\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAqwFQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T21:25:55.375Z",
+>>>>>>> bc192f6 (working on personal area fitchers)
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
               "Title": "RehubDbContext.cs",
               "DocumentMoniker": "C:\\Users\\USER\\RehubCenterProject\\RehubCenterServer\\Dal\\Context\\RehubDbContext.cs",
               "RelativeDocumentMoniker": "Dal\\Context\\RehubDbContext.cs",
               "ToolTip": "C:\\Users\\USER\\RehubCenterProject\\RehubCenterServer\\Dal\\Context\\RehubDbContext.cs",
               "RelativeToolTip": "Dal\\Context\\RehubDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+=======
+              "Title": "20250603211028_ChangeIdsToString.cs",
+              "DocumentMoniker": "O:\\1 \u05EA\u05DE\u05E8\\0 \u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD \u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD \u05D7\u05D5\u05E8\u05E3 \u05EA\u05E9\u05E4\u05D3\\\u05E9\u05E0\u05D4 \u05D1\\p\\RehubCenterServer\\Dal\\Migrations\\20250603211028_ChangeIdsToString.cs",
+              "RelativeDocumentMoniker": "Dal\\Migrations\\20250603211028_ChangeIdsToString.cs",
+              "ToolTip": "O:\\1 \u05EA\u05DE\u05E8\\0 \u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD \u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD \u05D7\u05D5\u05E8\u05E3 \u05EA\u05E9\u05E4\u05D3\\\u05E9\u05E0\u05D4 \u05D1\\p\\RehubCenterServer\\Dal\\Migrations\\20250603211028_ChangeIdsToString.cs",
+              "RelativeToolTip": "Dal\\Migrations\\20250603211028_ChangeIdsToString.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+>>>>>>> bc192f6 (working on personal area fitchers)
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:48:50.702Z",
+              "WhenOpened": "2025-06-03T21:10:28.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TherapistsBlServices.cs",
+              "DocumentMoniker": "O:\\1 \u05EA\u05DE\u05E8\\0 \u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD \u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD \u05D7\u05D5\u05E8\u05E3 \u05EA\u05E9\u05E4\u05D3\\\u05E9\u05E0\u05D4 \u05D1\\p\\RehubCenterServer\\BL\\Services\\TherapistsBlServices.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\TherapistsBlServices.cs",
+              "ToolTip": "O:\\1 \u05EA\u05DE\u05E8\\0 \u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD \u05D4\u05E0\u05D3\u05E1\u05D0\u05D9\u05DD \u05D7\u05D5\u05E8\u05E3 \u05EA\u05E9\u05E4\u05D3\\\u05E9\u05E0\u05D4 \u05D1\\p\\RehubCenterServer\\BL\\Services\\TherapistsBlServices.cs",
+              "RelativeToolTip": "BL\\Services\\TherapistsBlServices.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAjwCkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T21:09:02.82Z",
               "EditorCaption": ""
             }
           ]

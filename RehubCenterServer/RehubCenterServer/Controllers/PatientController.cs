@@ -55,7 +55,7 @@ namespace RehubCenterServer.Controllers
 
         //delete
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public IActionResult Delete(string id)
         {
             _patientService.Delete(id);
             return Ok("Patient deleted successfully.");
@@ -82,6 +82,7 @@ namespace RehubCenterServer.Controllers
         //}
 
         // Login
+        
         [HttpPost("login")]
         public ActionResult Login([FromBody] PatientLoginRequest loginRequest)
         {

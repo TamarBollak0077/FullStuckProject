@@ -19,7 +19,8 @@ namespace BL
         public IBlTherapist Therapist { get; }
 
 
-        public IBlPatientSessions PatientSessions { get; }
+        //public IBlPatientSessions PatientSessions { get; }
+
 
 
         public BlManager()
@@ -31,7 +32,7 @@ namespace BL
             services.AddSingleton<IBlPatient, PatientBlServices>();
             services.AddSingleton<IBlTherapist, TherapistsBlServices>();
 
-            services.AddSingleton<IBlPatientSessions, PatientSessionsBlService>();
+            //services.AddSingleton<IBlPatientSessions, PatientSessionsBlService>();
 
             ServiceProvider serviceProvider = services.BuildServiceProvider();
             Patient = serviceProvider.GetService<IBlPatient>();

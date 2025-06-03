@@ -5,7 +5,7 @@ namespace Dal.Entities;
 
 public partial class Patient
 {
-    public int PatientId { get; set; }
+    public string PatientId { get; set; } = null!;
 
     public string FirstName { get; set; } = null!;
 

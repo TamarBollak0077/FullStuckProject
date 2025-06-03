@@ -1,0 +1,35 @@
+.add-patient-bg {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+}
+
+.add-patient-form {
+  background: #fff;
+  padding: 32px 28px;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(34,58,94,0.12);
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.add-patient-title {
+  text-align: center;
+  color: #223a5e;
+  margin-bottom: 12px;
+}
+
+.add-patient-btn {
+  background: #223a5e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
