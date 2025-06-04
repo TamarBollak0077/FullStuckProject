@@ -74,8 +74,22 @@ const Home = () => {
         sx={{ position: 'fixed', bottom: 32, right: 32 }}
         icon={<MenuIcon />}
       >
-        <SpeedDialAction icon={<HomeIcon />} tooltipTitle="Home" onClick={() => navigate('/')} />
-        <SpeedDialAction icon={<InfoIcon />} tooltipTitle="About" onClick={() => navigate('/About')} />
+        <SpeedDialAction
+          icon={<HomeIcon />}
+          tooltipTitle="Home"
+          onClick={() => {
+            window.scrollTo(0, 0);
+            navigate('/');
+          }}
+        />
+        <SpeedDialAction
+          icon={<InfoIcon />}
+          tooltipTitle="About"
+          onClick={() => {
+            window.scrollTo(0, 0);
+            navigate('/About');
+          }}
+        />
       </SpeedDial>
     </div>
   );

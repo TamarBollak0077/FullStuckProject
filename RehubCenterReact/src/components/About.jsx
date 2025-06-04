@@ -139,7 +139,7 @@ const About = () => (
     </div>
 
     {/* Contact Section */}
-    <div id="contact" className="about-section">
+    <div className="about-section">
       <b>Family Involvement:</b><br />
       We recognize the crucial role that families play in the recovery process. Our center offers guidance, support, and therapy for family members, helping them understand addiction and learn how to support their loved ones on the path to recovery.
       <br /><br />
@@ -171,12 +171,13 @@ const About = () => (
           <div className="success-story-text">
             "I was addicted to alcohol for over a decade. Retorno was the first place where I felt truly understood. The group sessions, the nature, and the personal attention made all the difference. I am now sober, working as a mentor for others, and grateful every day."
           </div>
-          <div className="success-story-author">– Anonymous, age 41</div>
+          <div  className="success-story-author">– Anonymous, age 41</div>
         </div>
       </div>
 
       {/* Contact Us Section - רק כאן! */}
-      <div className="contact-section">
+      <div id="contact" className="about-section"/>
+      <div  className="contact-section">
         <b>Contact Us:</b><br />
         If you or someone you care about is struggling with addiction, we invite you to <a href="#signup-btn" className="contact-link">reach out</a>. Our team is here to answer your questions, provide information, and help you take the first step toward a healthier, more fulfilling life.
         <br /><br />

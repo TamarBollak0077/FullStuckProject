@@ -6,15 +6,15 @@ public class DalManager : IDal
     public ITherapist Therapist { get; }
 
 
-    //public IPatientSessions PatientSessions { get; }
+    public IPatientSessions PatientSessions { get; }
 
 
-public DalManager(IPatient patientService, ITherapist therapistService/*, IPatientSessions patientSessionsService*/)
+public DalManager(IPatient patientService, ITherapist therapistService, IPatientSessions patientSessionsService)
     {
+
         Patient = patientService;
         Therapist = therapistService;
-
-        //PatientSessions = patientSessionsService;
+        PatientSessions = patientSessionsService;
 
     }
 }

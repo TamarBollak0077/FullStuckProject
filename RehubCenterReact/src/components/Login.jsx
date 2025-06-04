@@ -44,7 +44,7 @@ export default function Login() {
         return;
       }
 
-      alert(`Welcome, ${data.firstName} ${data.lastName}`);
+
       localStorage.setItem('user', JSON.stringify(data));
       navigate('/personal-area');
     } catch (err) {

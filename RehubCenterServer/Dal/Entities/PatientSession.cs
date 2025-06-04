@@ -11,7 +11,7 @@ public partial class PatientSession
 
     public string PatientId { get; set; }
 
-    public int TherapistId { get; set; }
+    public string TherapistId { get; set; }
 
     public DateOnly SessionDate { get; set; }
 

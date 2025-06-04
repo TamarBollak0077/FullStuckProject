@@ -1,30 +1,29 @@
 import React, { useEffect, useState } from 'react';
-import { Box, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Chip } from '@mui/material';
-import { useNavigate } from 'react-router-dom';
+import { Box, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button } from '@mui/material';
+import { useNavigate, Link } from 'react-router-dom';
 import Skeleton from '@mui/material/Skeleton';
 import jsPDF from "jspdf";
 import ContactTherapist from './ContactTherapist';
 
-const mockAppointments = [
-  { date: '2025-06-01', time: '09:00', therapist: 'Dr. Cohen', status: 'Scheduled' },
-  { date: '2025-06-03', time: '11:00', therapist: 'Dr. Levi', status: 'Scheduled' },
-  { date: '2025-06-05', time: '14:00', therapist: 'Dr. Bar', status: 'Scheduled' },
-  { date: '2025-06-07', time: '10:00', therapist: 'Dr. Shalev', status: 'Scheduled' },
-  { date: '2025-06-09', time: '13:00', therapist: 'Dr. Cohen', status: 'Scheduled' },
-  { date: '2025-06-11', time: '09:30', therapist: 'Dr. Levi', status: 'Scheduled' },
-  { date: '2025-06-13', time: '15:00', therapist: 'Dr. Bar', status: 'Scheduled' },
-  { date: '2025-06-15', time: '12:00', therapist: 'Dr. Shalev', status: 'Scheduled' },
-  { date: '2025-06-17', time: '16:00', therapist: 'Dr. Cohen', status: 'Scheduled' },
-  { date: '2025-06-19', time: '10:30', therapist: 'Dr. Levi', status: 'Scheduled' },
-  { date: '2025-06-21', time: '13:30', therapist: 'Dr. Bar', status: 'Scheduled' },
-  { date: '2025-06-23', time: '11:00', therapist: 'Dr. Shalev', status: 'Scheduled' },
-];
-
 const PersonalArea = () => {
   const navigate = useNavigate();
   const [user, setUser] = useState(null);
+  const [therapists, setTherapists] = useState({});
+  const [appointments, setAppointments] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-  // בדיקת התחברות (דוגמה: בדיקה אם יש user ב-localStorage)
+  const fetchTherapist = async (therapistId) => {
+    if (!therapistId || therapists[therapistId]) return;
+    try {
+      const res = await fetch(`http://localhost:5253/api/Therapist/details/${therapistId}`);
+      if (!res.ok) throw new Error();
+      const data = await res.json();
+      setTherapists(prev => ({ ...prev, [therapistId]: data }));
+    } catch {
+      setTherapists(prev => ({ ...prev, [therapistId]: { fullName: 'Unknown', imageUrl: '' } }));
+    }
+  };
+
   useEffect(() => {
     const userData = localStorage.getItem('user');
     if (!userData) {
@@ -34,23 +33,45 @@ const PersonalArea = () => {
     }
   }, [navigate]);
 
+  useEffect(() => {
+    if (user && user.patientId) {
+      setLoading(true);
+      fetch(`http://localhost:5253/api/PatientSessions/byPatient/${user.patientId}`)
+        .then(res => {
+          if (!res.ok) throw new Error('Failed to fetch appointments');
+          return res.json();
+        })
+        .then(data => {
+          setAppointments(data);
+        })
+        .catch(() => setAppointments([]))
+        .finally(() => setLoading(false));
+    }
+  }, [user]);
+
+  useEffect(() => {
+    const ids = [...new Set(appointments.map(a => a.therapistId))];
+    ids.forEach(id => fetchTherapist(id));
+    // eslint-disable-next-line
+  }, [appointments]);
+
   const handleDownloadPdf = () => {
     const doc = new jsPDF();
     doc.setFontSize(18);
     doc.text(`Treatment Summary for ${user.firstName} ${user.lastName}`, 10, 20);
     doc.setFontSize(12);
-    doc.text(`Appointments: ${mockAppointments.length}`, 10, 35);
+    doc.text(`Appointments: ${appointments.length}`, 10, 35);
     doc.text('-------------------------------', 10, 45);
 
-    mockAppointments.forEach((appt, idx) => {
+    appointments.forEach((appt, idx) => {
       doc.text(
-        `${idx + 1}. ${appt.date} ${appt.time} - ${appt.therapist} (${appt.status})`,
+        `${idx + 1}. ${appt.sessionDate} ${appt.hour} - ${appt.therapistId || ''} (${appt.sessionType || ''})`,
         10,
         55 + idx * 10
       );
     });
 
-    doc.text('Thank you for being with us!', 10, 65 + mockAppointments.length * 10);
+    doc.text('Thank you for being with us!', 10, 65 + appointments.length * 10);
 
     doc.save('treatment-summary.pdf');
   };
@@ -58,7 +79,7 @@ const PersonalArea = () => {
   if (!user) return null;
 
   return (
-    <Box className="personal-area-container">
+    <Box className="personal-area-container" sx={{ mt: 8 }}>
       <Typography variant="h4" className="personal-area-title" gutterBottom>
         Welcome, {user.firstName}!
       </Typography>
@@ -68,45 +89,108 @@ const PersonalArea = () => {
 
       <Box className="personal-area-table-box">
         <Typography variant="h6" className="personal-area-table-title">
-          Your Next 12 Appointments
+          Your Appointments
         </Typography>
         <TableContainer component={Paper} className="personal-area-table-container">
           <Table>
             <TableHead>
               <TableRow>
+                <TableCell>Scheduled</TableCell>
                 <TableCell>Date</TableCell>
                 <TableCell>Time</TableCell>
                 <TableCell>Therapist</TableCell>
-                <TableCell>Status</TableCell>
+                <TableCell>Session Type</TableCell>
                 <TableCell align="center">Actions</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
-              {mockAppointments.length === 0 ? (
+              {loading ? (
                 <TableRow>
-                  <TableCell colSpan={5} align="center">
+                  <TableCell colSpan={6} align="center">
                     <Skeleton variant="rectangular" width={210} height={60} />
                   </TableCell>
                 </TableRow>
+              ) : appointments.length === 0 ? (
+                <TableRow>
+                  <TableCell colSpan={6} align="center">
+                    No appointments found.
+                  </TableCell>
+                </TableRow>
               ) : (
-                mockAppointments.map((row, idx) => (
-                  <TableRow key={idx}>
-                    <TableCell>{row.date}</TableCell>
-                    <TableCell>{row.time}</TableCell>
-                    <TableCell>{row.therapist}</TableCell>
-                    <TableCell>
-                      <Chip
-                        label={row.status}
-                        color={row.status === 'Scheduled' ? 'primary' : 'success'}
-                        variant="outlined"
-                        size="small"
-                      />
-                    </TableCell>
-                    <TableCell align="center">
-                      <Button size="small" color="primary" variant="outlined">Cancel</Button>
-                    </TableCell>
-                  </TableRow>
-                ))
+                appointments.map((row, idx) => {
+                  const d = new Date(row.sessionDate);
+                  const day = String(d.getDate()).padStart(2, '0');
+                  const month = String(d.getMonth() + 1).padStart(2, '0');
+                  const year = d.getFullYear();
+                  const isPast = row.sessionDate && d < new Date(new Date().setHours(0, 0, 0, 0));
+                  return (
+                    <TableRow
+                      key={idx}
+                      style={isPast ? { background: '#f3f3f3', color: '#aaa' } : {}}
+                    >
+                      <TableCell style={isPast ? { color: '#aaa' } : {}}>
+                        {isPast ? (
+                          <span style={{ color: '#aaa', fontWeight: 600 }}>Completed</span>
+                        ) : (
+                          <span style={{ color: 'orange' }}>Upcoming</span>
+                        )}
+                      </TableCell>
+                      <TableCell style={isPast ? { color: '#aaa' } : {}}>
+                        {row.sessionDate ? `${day}/${month}/${year}` : ''}
+                      </TableCell>
+                      <TableCell style={isPast ? { color: '#aaa' } : {}}>
+                        {row.hour ? row.hour.substring(0, 5) : ''}
+                      </TableCell>
+                      <TableCell style={isPast ? { color: '#aaa' } : {}}>
+                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                          <Link to={`/therapists#therapist-${row.therapistId}`}>
+                            <img
+                              src={`http://localhost:5253/Images/therapists/${row.therapistId}.png`}
+                              alt={therapists[row.therapistId]?.fullName || 'Therapist'}
+                              style={{
+                                width: 48,
+                                height: 48,
+                                borderRadius: '50%',
+                                objectFit: 'cover',
+                                cursor: 'pointer',
+                                opacity: isPast ? 0.5 : 1
+                              }}
+                              onError={e => { e.target.src = '/default-avatar.png'; }}
+                            />
+                          </Link>
+                          <Link
+                            to={`/therapists#therapist-${row.therapistId}`}
+                            style={{
+                              color: isPast ? '#aaa' : '#223a5e',
+                              textDecoration: 'underline',
+                              fontWeight: 500,
+                              cursor: 'pointer'
+                            }}
+                          >
+                            {therapists[row.therapistId]?.fullName || 'Loading...'}
+                          </Link>
+                        </Box>
+                      </TableCell>
+                      <TableCell style={isPast ? { color: '#aaa' } : {}}>
+                        {row.sessionType}
+                      </TableCell>
+                      <TableCell align="center">
+                        <Button
+                          size="small"
+                          color="primary"
+                          variant="outlined"
+                          disabled={isPast}
+                          onClick={() => {
+                            // כאן תוכל להוסיף לוגיקה לפתיחת דיאלוג/מודל לשינוי זמן
+                            alert('Change time functionality coming soon!');
+                          }}
+                        >
+                          Change Time
+                        </Button>
+                      </TableCell>
+                    </TableRow>
+                  );
+                })
               )}
             </TableBody>
           </Table>
@@ -140,13 +224,8 @@ const PersonalArea = () => {
             </a>
           </li>
 
-          {/* 3. יצירת קשר עם המטפל */}
-          <li>
-            <ContactTherapist user={user} therapistEmail="therapist@example.com" />
-          </li>
+          <ContactTherapist user={user} therapistEmail="therapist@example.com" />
 
-
-          {/* 4. מאמרים וסרטונים */}
           <li>
             <a
               href="https://www.youtube.com/results?search_query=rehabilitation+exercises"

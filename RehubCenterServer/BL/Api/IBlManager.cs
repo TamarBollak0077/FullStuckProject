@@ -10,7 +10,7 @@ namespace BL.Api
     {
         IBlPatient Patient { get; }
 
-        //IBlPatientSessions PatientSessions { get; }
+        IBlPatientSessions PatientSessions { get; }
 
     }
 }

@@ -18,10 +18,12 @@ builder.Services.AddDbContext<RehubDbContext>(options =>
 
 builder.Services.AddScoped<IPatient, PatientService>();
 builder.Services.AddScoped<ITherapist, TherapistService>();
+builder.Services.AddScoped<IPatientSessions, PatientSessionsService>();
 builder.Services.AddScoped<IDal, DalManager>();
 builder.Services.AddScoped<IBlManager, BlManager>();
 builder.Services.AddScoped<IBlPatient, PatientBlServices>();
 builder.Services.AddScoped<IBlTherapist, TherapistsBlServices>();
+builder.Services.AddScoped<IBlPatientSessions, PatientSessionsBlService>();
 
 builder.Services.AddCors(options =>
 {

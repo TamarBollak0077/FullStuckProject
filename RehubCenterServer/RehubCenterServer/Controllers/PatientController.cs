@@ -31,6 +31,7 @@ namespace RehubCenterServer.Controllers
 
             // החזרת המטופל שנוסף עם קוד סטטוס 201 Created
             return CreatedAtAction(nameof(Add), newPatient);
+            Console.WriteLine($"a new patient add. Details: name:{newPatient.FirstName} {newPatient.LastName}, Date of Birth: {newPatient.DateOfBirth}, Contact information: {newPatient.ContactInfo}");
         }
 
 
@@ -98,7 +99,7 @@ namespace RehubCenterServer.Controllers
                 !string.Equals(patient.FirstName, loginRequest.FirstName, StringComparison.OrdinalIgnoreCase) ||
                 !string.Equals(patient.LastName, loginRequest.LastName, StringComparison.OrdinalIgnoreCase))
             {
-                return NotFound(new { message = "Patient details do not match our records." });
+                return NotFound(new { message = "Patient details do not match our records, try again or sign up" });
             }
 
             return Ok(new

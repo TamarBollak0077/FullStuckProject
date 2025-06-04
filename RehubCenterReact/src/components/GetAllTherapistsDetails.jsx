@@ -1,4 +1,5 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { removeTherapist, setTherapists, updateTherapist } from '../redux/therapistsSlice';
 import {
@@ -13,20 +14,22 @@ import {
 import InstagramIcon from '@mui/icons-material/Instagram';
 import EmailIcon from '@mui/icons-material/Email';
 import '../CSS/GetAllTherapistsDetails.css'; // ייבוא קובץ ה-CSS החדש
+import { Link } from 'react-router-dom';
 
 
 const GetAllTherapistsDetails = () => {
     const dispatch = useDispatch();
-    const therapists = useSelector(state => state.therapists || []); // הגדרת ברירת מחדל
+    const therapists = useSelector(state => state.therapists || []);
+    const location = useLocation();
 
-    const handleRemoveTherapist = (therapistId) => {
-        dispatch(removeTherapist({ id: therapistId }));
-    };
-
-    const handleupdateTherapist = (therapist) => {
-        dispatch(updateTherapist(therapist));
-    };
-
+    React.useEffect(() => {
+        if (location.hash) {
+            const el = document.getElementById(location.hash.replace('#', ''));
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }
+    }, [location, therapists]);
 
     React.useEffect(() => {
         const fetchTherapists = async () => {
@@ -46,58 +49,58 @@ const GetAllTherapistsDetails = () => {
     }, [dispatch]);
 
     return (
-
         <div className="therapists-details">
-           <h1 style={{ textAlign: "left", color: "#223a5e", fontWeight: 700, fontSize: "2rem", marginBottom: 24 }}>
-             {/* Our Therapists */}
-           </h1>
-
+            <h1 style={{ textAlign: "left", color: "#223a5e", fontWeight: 700, fontSize: "2rem", marginBottom: 24 }}>
+                {/* Our Therapists */}
+            </h1>
             <Grid container spacing={3}>
                 {therapists.map((therapist) => (
-                    <Grid xs={12} sm={6} md={4} key={therapist.therapistId}>
+                    <Grid xs={12} sm={6} md={4} key={therapist.therapistId} id={`therapist-${therapist.therapistId}`}>
                         <Card className="therapist-card">
                             <Grid container alignItems="center" justifyContent="flex-start" direction="row">
-    <Grid item xs={5} sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 1 }}>
-        <Avatar
-            src={`http://localhost:5253/Images/therapists/${therapist.therapistId}.png`}
-            alt="Profile"
-            className="therapist-avatar"
-            sx={{ width: 70, height: 70 }}
-        />
-        <div className="therapist-icons">
-            <Tooltip title="Instagram">
-                <IconButton
-                    className="instagram"
-                    component="a"
-                    href={therapist.instagram ? therapist.instagram : "#"}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <InstagramIcon fontSize="large" />
-                </IconButton>
-            </Tooltip>
-            <Tooltip title="Send Email">
-                <IconButton
-                    className="email"
-                    component="a"
-                    href={`mailto:${therapist.ContactInfo ? therapist.ContactInfo : ''}`}
-                >
-                    <EmailIcon fontSize="large" />
-                </IconButton>
-            </Tooltip>
-        </div>
-    </Grid>
-    <Grid item xs={7}>
-        <CardContent>
-            <Typography className="therapist-name">
-                {therapist.title} {therapist.firstName} {therapist.lastName}
-            </Typography>
-            <Typography className="therapist-desc">
-                {therapist.description}
-            </Typography>
-        </CardContent>
-    </Grid>
-</Grid>
+                                <Grid item xs={5} sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 1 }}>
+                                    <Link to={`/therapists#therapist-${therapist.therapistId}`}>
+                                        <Avatar
+                                            src={`http://localhost:5253/Images/therapists/${therapist.therapistId}.png`}
+                                            alt="Profile"
+                                            className="therapist-avatar"
+                                            sx={{ width: 70, height: 70, cursor: 'pointer' }}
+                                        />
+                                    </Link>
+                                    <div className="therapist-icons">
+                                        <Tooltip title="Instagram">
+                                            <IconButton
+                                                className="instagram"
+                                                component="a"
+                                                href={therapist.instagram ? therapist.instagram : "#"}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                <InstagramIcon fontSize="large" />
+                                            </IconButton>
+                                        </Tooltip>
+                                        <Tooltip title="Send Email">
+                                            <IconButton
+                                                className="email"
+                                                component="a"
+                                                href={`mailto:${therapist.ContactInfo ? therapist.ContactInfo : ''}`}
+                                            >
+                                                <EmailIcon fontSize="large" />
+                                            </IconButton>
+                                        </Tooltip>
+                                    </div>
+                                </Grid>
+                                <Grid item xs={7}>
+                                    <CardContent>
+                                        <Typography className="therapist-name">
+                                            {therapist.title} {therapist.firstName} {therapist.lastName}
+                                        </Typography>
+                                        <Typography className="therapist-desc">
+                                            {therapist.description}
+                                        </Typography>
+                                    </CardContent>
+                                </Grid>
+                            </Grid>
                         </Card>
                     </Grid>
                 ))}

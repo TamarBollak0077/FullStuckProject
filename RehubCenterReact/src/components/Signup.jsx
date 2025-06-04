@@ -7,6 +7,8 @@ export default function Signup() {
     patientId: '',
     firstName: '',
     lastName: '',
+    dateOfBirth: '',
+    contactInfo: '',
   });
 
   const navigate = useNavigate();
@@ -22,7 +24,7 @@ export default function Signup() {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:5253/api/patient/signup', { // שימי לב לכתובת
+      const response = await fetch('http://localhost:5253/api/patient/signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
@@ -35,21 +37,56 @@ export default function Signup() {
         return;
       }
 
-      alert(`Welcome, ${data.firstName} ${data.lastName}`);
-      localStorage.setItem('user', JSON.stringify(data));
-      navigate('/personal-area');
+      // מעבר לעמוד הצלחה במקום alert
+      navigate('/signup-success');
     } catch (err) {
       alert('Network error');
     }
   };
-
   return (
     <div className="login-bg">
       <form className="login-form" onSubmit={handleSubmit}>
         <h2 className="login-title">Sign Up</h2>
-        <input name="patientId" placeholder="ID" value={formData.patientId} onChange={handleChange} required />
-        <input name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} required />
-        <input name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} required />
+        <input
+          name="patientId"
+          placeholder="ID"
+          value={formData.patientId}
+          onChange={handleChange}
+          required
+          maxLength={9}
+          pattern="\d{9}"
+          title="ID must be exactly 9 digits"
+          inputMode="numeric"
+        />
+        <input
+          name="firstName"
+          placeholder="First Name"
+          value={formData.firstName}
+          onChange={handleChange}
+          required
+        />
+        <input
+          name="lastName"
+          placeholder="Last Name"
+          value={formData.lastName}
+          onChange={handleChange}
+          required
+        />
+        <input
+          name="dateOfBirth"
+          type="date"
+          placeholder="Date of Birth"
+          value={formData.dateOfBirth}
+          onChange={handleChange}
+          required
+        />
+        <input
+          name="contactInfo"
+          placeholder="Contact Info (email or phone)"
+          value={formData.contactInfo}
+          onChange={handleChange}
+          required
+        />
         <button type="submit" className="login-btn">
           Sign Up
         </button>

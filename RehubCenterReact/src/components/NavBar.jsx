@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AppBar, Toolbar, Typography, Button, Box, Menu, MenuItem } from '@mui/material';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
@@ -7,10 +7,14 @@ import Tooltip from '@mui/material/Tooltip';
 const navItems = [
   { label: 'Home', path: '/' },
   { label: 'Personal Area', path: '/login', key: 'profile', icon: <AccountCircleIcon /> },
-  { label: 'About', path: '/About', key: 'about', subMenu: [
+  {
+    label: 'About',
+    path: '/About',
+    key: 'about',
+    subMenu: [
       { label: 'Our Method', anchor: 'method' },
       { label: 'Types of Addictions', anchor: 'addictions' },
-      { label: 'Addiction Info', anchor: 'addiction-info' }, // חדש!
+      { label: 'Addiction Info', anchor: 'addiction-info' },
       { label: 'Contact', anchor: 'contact' }
     ]
   },
@@ -37,22 +41,38 @@ const NavBar = () => {
     if (location.pathname !== '/About') {
       navigate(`/About#${anchor}`);
     } else {
+      setTimeout(() => {
+        const el = document.getElementById(anchor);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100); // נותן זמן ל-Menu להסגר
+    }
+  };
+
+  // גלילה אוטומטית לעוגן כאשר מגיעים ל-About עם hash
+  useEffect(() => {
+    if (location.pathname === '/About' && location.hash) {
+      const anchor = location.hash.replace('#', '');
       const el = document.getElementById(anchor);
       if (el) {
         el.scrollIntoView({ behavior: 'smooth' });
-      } else {
-        window.location.hash = anchor;
       }
     }
+  }, [location]);
+
+  // גלילה לראש הדף בלחיצה על HOME
+  const handleHomeClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
     <AppBar
-      position="fixed" // במקום "static"
+      position="fixed"
       sx={{
         backgroundColor: '#223a5e',
         color: '#fff',
-        zIndex: 1300, // כדי שיהיה מעל כל התוכן
+        zIndex: 1300,
       }}
       elevation={2}
     >
@@ -92,6 +112,18 @@ const NavBar = () => {
                   ))}
                 </Menu>
               </React.Fragment>
+            ) : item.label === 'Home' || item.label === 'Our Therapists' ? (
+              <Tooltip title="" key={item.key || item.path}>
+                <Button
+                  color="inherit"
+                  component={Link}
+                  to={item.path}
+                  sx={{ ml: 2 }}
+                  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                >
+                  {item.label}
+                </Button>
+              </Tooltip>
             ) : (
               <Tooltip title={item.label === 'Personal Area' ? 'Go to your personal area' : ''} key={item.key || item.path}>
                 <Button

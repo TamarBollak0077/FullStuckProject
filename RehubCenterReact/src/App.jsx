@@ -10,7 +10,7 @@ import SignupSuccess from './components/SignupSuccess';
 import About from './components/About';
 import PersonalArea from './components/PersonalArea';
 import './App.css';
-
+import TherapistDetails from './components/GetAllTherapistsDetails'; // או השם של הקומפוננטה שמציגה מטפל בודד
 // עמודים נוספים
 // const About = () => (
 //   <div style={{ padding: 32 }}>
@@ -39,6 +39,7 @@ function App() {
           <Route path="/profile" element={<Navigate to="/login" replace />} />
           <Route path="/About" element={<About />} />
           <Route path="/therapists" element={<GetAllTherapistsDetails />} />
+          <Route path="/therapists/:therapistId" element={<TherapistDetails />} />
           <Route path="/patients-contact" element={<GetAllPatientsContactInfo />} />
           <Route path="/login" element={<Login />} />
           <Route path="/personal-area" element={<PersonalArea />} />
