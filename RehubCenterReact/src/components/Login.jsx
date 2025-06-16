@@ -9,6 +9,7 @@ export default function Login() {
     firstName: '',
     lastName: '',
   });
+
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
@@ -17,7 +18,9 @@ export default function Login() {
       ...prev,
       [e.target.name]: e.target.value,
     }));
+
     setError('');
+
   };
 
   const handleSubmit = async (e) => {
@@ -35,13 +38,16 @@ export default function Login() {
       });
 
       if (response.status === 204) {
+
         setError('המשתמש לא קיים במערכת. ניתן להירשם בלחיצה על "To Sign Up".');
+
         return;
       }
 
       const data = await response.json();
 
       if (!response.ok) {
+
         setError(data.message || 'פרטי ההתחברות אינם נכונים.');
         return;
       }
@@ -50,6 +56,7 @@ export default function Login() {
       navigate('/personal-area');
     } catch (err) {
       setError('שגיאת רשת. נסה שוב מאוחר יותר.');
+
     }
   };
 
@@ -63,6 +70,7 @@ export default function Login() {
         <button type="submit" className="login-btn">
           Login
         </button>
+
         <div className="signup-row">
           <a href="/signup" className="signup-link-flat">
             To Sign Up
@@ -78,6 +86,7 @@ export default function Login() {
             <div className="login-error">{error}</div>
           </div>
         )}
+
       </form>
     </div>
   );

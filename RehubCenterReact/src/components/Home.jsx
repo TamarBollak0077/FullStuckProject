@@ -3,6 +3,9 @@ import { Box, Typography, Grid, Card, CardContent } from '@mui/material';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
+// import { Box, Typography } from '@mui/material';
+// import '../CSS/Home.css';
+// import bg2 from '../Pictures/bg2.jpg';
 import SpeedDial from '@mui/material/SpeedDial';
 import SpeedDialAction from '@mui/material/SpeedDialAction';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -15,6 +18,7 @@ const Home = () => {
 
   return (
     <div>
+
       {/* Hero section with background image and overlay */}
       <Box
         sx={{
@@ -220,6 +224,7 @@ const Home = () => {
             The 'Retorno' rehabilitation model is based on one principle: <b>no one is lost.</b> In treatment, we analyze the motives for addiction, provide the addict with a safe base along with hope and meaning, and help them rebuild their life and form positive and supportive relationships with their environment.
           </Typography>
         </Box>
+
       </Box>
 
       {/* Speed Dial for navigation */}
@@ -245,6 +250,7 @@ const Home = () => {
           }}
         />
       </SpeedDial>
+
       {/* Heartbeat animation */}
       <style>
         {`
@@ -258,6 +264,7 @@ const Home = () => {
         }
         `}
       </style>
+
     </div>
   );
 };

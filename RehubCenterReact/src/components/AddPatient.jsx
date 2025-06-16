@@ -89,6 +89,7 @@ export default function AddPatient() {
     >
 
       <Paper
+<<<<<<< HEAD
         elevation={12}
         sx={{
           backgroundColor: '#455A64',
@@ -109,10 +110,32 @@ export default function AddPatient() {
             fontWeight: 600,
             fontSize: '0.98rem',
             letterSpacing: 0.3,
+=======
+        elevation={6}
+        sx={{
+          backgroundColor: '#455A64',
+          padding: 4,
+          borderRadius: 4,
+          width: '100%',
+          maxWidth: 450,
+        }}
+      >
+        <Typography
+          variant="h5"
+          sx={{
+            color: softGreen,
+            mb: 3,
+            textAlign: 'center',
+            fontWeight: 'bold',
+>>>>>>> a86ca31740cf690618d8299c45b5138aa4a4c5ae
           }}
         >
           הרשמה
         </Typography>
+<<<<<<< HEAD
+=======
+
+>>>>>>> a86ca31740cf690618d8299c45b5138aa4a4c5ae
         <form onSubmit={handleSubmit} noValidate>
           <TextField
             name="patientId"
@@ -121,8 +144,12 @@ export default function AddPatient() {
             onChange={handleChange}
             required
             fullWidth
+<<<<<<< HEAD
             size="small"
             sx={{ ...miniFieldStyle }}
+=======
+            sx={fieldStyle}
+>>>>>>> a86ca31740cf690618d8299c45b5138aa4a4c5ae
           />
           <TextField
             name="firstName"
@@ -131,8 +158,12 @@ export default function AddPatient() {
             onChange={handleChange}
             required
             fullWidth
+<<<<<<< HEAD
             size="small"
             sx={{ ...miniFieldStyle }}
+=======
+            sx={fieldStyle}
+>>>>>>> a86ca31740cf690618d8299c45b5138aa4a4c5ae
           />
           <TextField
             name="lastName"
@@ -141,8 +172,12 @@ export default function AddPatient() {
             onChange={handleChange}
             required
             fullWidth
+<<<<<<< HEAD
             size="small"
             sx={{ ...miniFieldStyle }}
+=======
+            sx={fieldStyle}
+>>>>>>> a86ca31740cf690618d8299c45b5138aa4a4c5ae
           />
           <TextField
             name="dateOfBirth"
@@ -152,9 +187,14 @@ export default function AddPatient() {
             onChange={handleChange}
             required
             fullWidth
+<<<<<<< HEAD
             size="small"
             InputLabelProps={{ shrink: true }}
             sx={{ ...miniFieldStyle }}
+=======
+            InputLabelProps={{ shrink: true }}
+            sx={fieldStyle}
+>>>>>>> a86ca31740cf690618d8299c45b5138aa4a4c5ae
           />
           <TextField
             name="contactInfo"
@@ -163,8 +203,12 @@ export default function AddPatient() {
             onChange={handleChange}
             required
             fullWidth
+<<<<<<< HEAD
             size="small"
             sx={{ ...miniFieldStyle }}
+=======
+            sx={fieldStyle}
+>>>>>>> a86ca31740cf690618d8299c45b5138aa4a4c5ae
           />
 
           <Button
@@ -172,6 +216,7 @@ export default function AddPatient() {
             fullWidth
             disabled={loading}
             sx={{
+<<<<<<< HEAD
               mt: 0.7,
               backgroundColor: softTurquoise,
               color: offWhite,
@@ -180,17 +225,33 @@ export default function AddPatient() {
               fontSize: '0.92rem',
               py: 0.7,
               minHeight: 0,
+=======
+              mt: 2,
+              backgroundColor: softTurquoise,
+              color: offWhite,
+              fontWeight: 'bold',
+              borderRadius: 2,
+>>>>>>> a86ca31740cf690618d8299c45b5138aa4a4c5ae
               '&:hover': {
                 backgroundColor: softGreen,
               },
             }}
           >
+<<<<<<< HEAD
             {loading ? <CircularProgress size={18} color="inherit" /> : 'הרשמה'}
           </Button>
 
           {error && <Alert severity="error" sx={{ mt: 0.7, fontSize: '0.9em', py: 0.3 }}>{error}</Alert>}
           {success && (
             <Alert severity="success" sx={{ mt: 0.7, fontSize: '0.9em', py: 0.3 }}>
+=======
+            {loading ? <CircularProgress size={24} color="inherit" /> : 'הרשמה'}
+          </Button>
+
+          {error && <Alert severity="error" sx={{ mt: 2 }}>{error}</Alert>}
+          {success && (
+            <Alert severity="success" sx={{ mt: 2 }}>
+>>>>>>> a86ca31740cf690618d8299c45b5138aa4a4c5ae
               ✓ המטופל נוסף בהצלחה!
             </Alert>
           )}
@@ -200,6 +261,7 @@ export default function AddPatient() {
   );
 }
 
+<<<<<<< HEAD
 const miniFieldStyle = {
   mb: 0.5,
   '& .MuiInputBase-root': {
@@ -226,5 +288,12 @@ const miniFieldStyle = {
       minHeight: 0,
       borderRadius: 2,
     },
+=======
+const fieldStyle = {
+  mb: 2,
+  '& .MuiInputBase-root': {
+    backgroundColor: offWhite,
+    borderRadius: 2,
+>>>>>>> a86ca31740cf690618d8299c45b5138aa4a4c5ae
   },
 };

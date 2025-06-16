@@ -17,6 +17,7 @@ import Dialog from '@mui/material/Dialog';
 import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
 
+
 const PersonalArea = () => {
   const navigate = useNavigate();
   const [user, setUser] = useState(null);
@@ -24,6 +25,7 @@ const PersonalArea = () => {
   const [appointments, setAppointments] = useState([]);
   const [loading, setLoading] = useState(true);
   const [openComments, setOpenComments] = useState(false);
+
 
   const fetchTherapist = async (therapistId) => {
     if (!therapistId || therapists[therapistId]) return;
@@ -92,6 +94,7 @@ const PersonalArea = () => {
   if (!user) return null;
 
   return (
+
     <Box
       className="personal-area-container"
       sx={{
@@ -164,6 +167,30 @@ const PersonalArea = () => {
                 <TableCell sx={{ fontWeight: 700 }}>Therapist</TableCell>
                 <TableCell sx={{ fontWeight: 700 }}>Session Type</TableCell>
                 <TableCell align="center" sx={{ fontWeight: 700 }}>Actions</TableCell>
+
+    {/* <Box className="personal-area-container" sx={{ mt: 8 }}>
+      <Typography variant="h4" className="personal-area-title" gutterBottom>
+        Welcome, {user.firstName}!
+      </Typography>
+      <Typography variant="body1" className="personal-area-info" gutterBottom>
+        Here you can view your upcoming appointments, update your details, and get useful tips for your recovery journey.
+      </Typography>
+
+      <Box className="personal-area-table-box">
+        <Typography variant="h6" className="personal-area-table-title">
+          Your Appointments
+        </Typography>
+        <TableContainer component={Paper} className="personal-area-table-container">
+          <Table>
+            <TableHead>
+              <TableRow>
+                <TableCell>Scheduled</TableCell>
+                <TableCell>Date</TableCell>
+                <TableCell>Time</TableCell>
+                <TableCell>Therapist</TableCell>
+                <TableCell>Session Type</TableCell>
+                <TableCell align="center">Actions</TableCell> */}
+
               </TableRow>
             </TableHead>
             <TableBody>
@@ -202,7 +229,9 @@ const PersonalArea = () => {
                         {isPast ? (
                           <span style={{ color: '#aaa', fontWeight: 600 }}>Completed</span>
                         ) : (
+
                           <span style={{ color: '#1976d2', fontWeight: 600 }}>Upcoming</span>
+
                         )}
                       </TableCell>
                       <TableCell style={isPast ? { color: '#aaa' } : {}}>
@@ -218,6 +247,7 @@ const PersonalArea = () => {
                               src={`http://localhost:5253/Images/therapists/${row.therapistId}.png`}
                               alt={therapists[row.therapistId]?.fullName || 'Therapist'}
                               style={{
+
                                 width: 44,
                                 height: 44,
                                 borderRadius: '50%',
@@ -229,6 +259,7 @@ const PersonalArea = () => {
                               }}
                               onMouseOver={e => (e.currentTarget.style.transform = 'scale(1.08)')}
                               onMouseOut={e => (e.currentTarget.style.transform = 'scale(1)')}
+
                               onError={e => { e.target.src = '/default-avatar.png'; }}
                             />
                           </Link>
@@ -236,6 +267,7 @@ const PersonalArea = () => {
                             to={`/therapists#therapist-${row.therapistId}`}
                             style={{
                               color: isPast ? '#aaa' : '#1976d2',
+
                               textDecoration: 'underline',
                               fontWeight: 500,
                               cursor: 'pointer'
@@ -279,7 +311,6 @@ const PersonalArea = () => {
           </Table>
         </TableContainer>
       </Box>
-
       <Divider sx={{
         mb: 4,
         mt: 2,
@@ -524,6 +555,7 @@ const PersonalArea = () => {
         }
         `}
       </style>
+
     </Box>
   );
 };
