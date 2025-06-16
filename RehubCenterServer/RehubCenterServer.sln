@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RehubCenterServer", "RehubCenterServer\RehubCenterServer.csproj", "{4CB29E11-E731-4FC1-B948-9A704B035DCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{381B8292-B761-4778-A568-F4DC65E94D7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dal", "Dal\Dal.csproj", "{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CB29E11-E731-4FC1-B948-9A704B035DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB29E11-E731-4FC1-B948-9A704B035DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB29E11-E731-4FC1-B948-9A704B035DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB29E11-E731-4FC1-B948-9A704B035DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{381B8292-B761-4778-A568-F4DC65E94D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381B8292-B761-4778-A568-F4DC65E94D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381B8292-B761-4778-A568-F4DC65E94D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381B8292-B761-4778-A568-F4DC65E94D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C82A9D-02D5-40ED-AF3A-2EC5879E0CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19992C74-DA74-49CA-9DAA-4105C027D7DA}
+	EndGlobalSection
+EndGlobal

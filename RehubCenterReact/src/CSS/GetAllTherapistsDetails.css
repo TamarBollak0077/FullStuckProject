@@ -1,0 +1,125 @@
+.therapists-details {
+  max-width: 1200px;
+  margin: 48px auto;
+  padding: 24px;
+  background: #f5f7fa;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(34,58,94,0.10);
+}
+
+.therapists-details h1 {
+  text-align: left;
+  color: #223a5e;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
+
+.therapist-card {
+  text-align: center;
+  padding: 16px;
+  box-shadow: 0 4px 24px rgba(34,58,94,0.12);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.therapist-avatar {
+  width: 120px !important;
+  height: 120px !important;
+  margin-bottom: 16px;
+  margin-right: 16px;
+  /* border: 2px solid #4F8EDC; */ /* הסרנו את המסגרת */
+}
+
+.therapist-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #223a5e;
+  text-align: left;
+}
+
+.therapist-desc {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #555;
+  text-align: left;
+}
+
+/* אייקונים של אינסטגרם ומייל */
+.therapist-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 8px;
+  align-items: center;
+}
+
+.therapist-icons .MuiIconButton-root {
+  background: none !important;
+  box-shadow: none !important;
+  border-radius: 50%;
+  margin: 0 2px;
+  padding: 4px;
+  transition: color 0.2s, background 0.2s, transform 0.2s;
+}
+
+.therapist-icons .MuiIconButton-root:hover {
+  transform: scale(1.12);
+}
+
+.therapist-icons .MuiSvgIcon-root {
+  font-size: 2rem !important;
+}
+
+.therapist-icons .instagram {
+  color: #E1306C;
+}
+.therapist-icons .instagram:hover {
+  color: #405DE6;
+}
+.therapist-icons .email {
+  color: #153A6F;
+}
+.therapist-icons .email:hover {
+  color: #4F8EDC;
+}
+
+/* כותרות */
+.therapists-title {
+  color: #1976d2;
+  font-size: 2.3rem;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-shadow: 0 2px 12px #1976d222;
+}
+
+.therapists-subtitle {
+  color: #37474f;
+  font-size: 1.13rem;
+  font-weight: 500;
+  margin-bottom: 32px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* רספונסיביות */
+@media (max-width: 600px) {
+  .therapists-details {
+    padding: 8px 2px;
+  }
+  .therapist-card {
+    margin: 8px 0;
+  }
+  .therapist-avatar {
+    width: 80px !important;
+    height: 80px !important;
+    margin-bottom: 8px;
+    margin-right: 8px;
+  }
+}
