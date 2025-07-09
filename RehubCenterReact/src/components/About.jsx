@@ -1,10 +1,8 @@
 import React from 'react';
 import '../CSS/About.css';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
-<<<<<<< HEAD
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
-=======
->>>>>>> a86ca31740cf690618d8299c45b5138aa4a4c5ae
+
 
 import Alcohol from '../Pictures/Alcohol.png';
 import Drugs from '../Pictures/Drugs.jpg';
@@ -157,14 +155,12 @@ const About = () => (
       <b>Success Stories:</b><br />
       <div className="success-stories-list">
         <div className="success-story-card">
-<<<<<<< HEAD
+
           <div className="success-story-quote">
             <FormatQuoteIcon className="quote-icon" />
             “A New Beginning”
           </div>
-=======
-          <div className="success-story-title">“A New Beginning”</div>
->>>>>>> a86ca31740cf690618d8299c45b5138aa4a4c5ae
+
           <div className="success-story-text">
             "After years of struggling with drug addiction, I came to Retorno broken and hopeless. The staff never gave up on me, even when I wanted to give up on myself. The 12-step program and the supportive community helped me rediscover my strength. Today, I am clean for three years, working, and rebuilding my relationship with my family. Retorno gave me my life back."
           </div>

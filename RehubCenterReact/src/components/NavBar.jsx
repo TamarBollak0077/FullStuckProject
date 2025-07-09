@@ -19,6 +19,7 @@ const navItems = [
     ]
   },
   { label: 'Our Therapists', path: '/therapists', key: 'therapists' },
+  { label: 'Therapist Login', path: '/therapist-login', key: 'therapist-login' }, // ← הוסף שורה זו
   { label: 'Connection', path: '/signup', key: 'login' },
 ];
 

@@ -11,6 +11,9 @@ import About from './components/About';
 import PersonalArea from './components/PersonalArea';
 import './App.css';
 import TherapistDetails from './components/GetAllTherapistsDetails'; // או השם של הקומפוננטה שמציגה מטפל בודד
+import TherapistLogin from './components/TherapistLogin';
+import TherapistArea from './components/TherapistArea';
+
 // עמודים נוספים
 // const About = () => (
 //   <div style={{ padding: 32 }}>
@@ -45,6 +48,8 @@ function App() {
           <Route path="/personal-area" element={<PersonalArea />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/signup-success" element={<SignupSuccess />} />
+          <Route path="/therapist-login" element={<TherapistLogin />} />
+          <Route path="/therapist-area/:therapistId" element={<TherapistArea />} />
         </Routes>
       </ForceHomeOnRefresh>
     </Router>
