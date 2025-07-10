@@ -4,9 +4,8 @@ import { Card, CardContent, Typography, Box, IconButton, Tooltip, Avatar, Divide
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import React from 'react';
+import FeedbackForm from './FeedbackForm';
 
-// Function to create an array of all days in a given month
 function getDaysInMonth(year, month) {
   const date = new Date(year, month, 1);
   const days = [];
@@ -22,21 +21,21 @@ const weekDays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 export default function TherapistArea() {
   const { therapistId } = useParams();
   const [calendar, setCalendar] = useState([]);
-  const [patients, setPatients] = useState([]); // ← חדש
+  const [patients, setPatients] = useState([]);
   const [error, setError] = useState('');
   const [selectedDate, setSelectedDate] = useState(null);
 
-  // Get therapist name from localStorage
+  // Therapist info
   const therapist = JSON.parse(localStorage.getItem('therapist'));
   const therapistName = therapist
     ? `${therapist.firstName || ''} ${therapist.lastName || ''}`.trim()
     : '';
 
-  // monthState: [year, month] (month 0-based)
+  // Month state
   const today = new Date();
   const [monthState, setMonthState] = useState([today.getFullYear(), today.getMonth()]);
 
-  // Get therapist calendar
+  // Fetch therapist calendar
   useEffect(() => {
     fetch(`http://localhost:5253/api/therapist/${therapistId}/calendar`)
       .then(res => {
@@ -47,7 +46,7 @@ export default function TherapistArea() {
       .catch(() => setCalendar([]));
   }, [therapistId]);
 
-  // Get patients list
+  // Fetch patients list
   useEffect(() => {
     fetch('http://localhost:5253/api/patient')
       .then(res => res.json())
@@ -61,7 +60,7 @@ export default function TherapistArea() {
     return patient ? `${patient.firstName} ${patient.lastName}` : 'No Name';
   };
 
-  // All dates with sessions
+  // Dates with sessions
   const datesWithSessions = calendar.map(day => day.date);
 
   // Days in selected month
@@ -79,7 +78,7 @@ export default function TherapistArea() {
 
   // Padding for empty days at the start of the month
   const firstDayOfWeek = daysInMonth[0].getDay();
-  const paddingDays = firstDayOfWeek; // Sunday as first day
+  const paddingDays = firstDayOfWeek;
 
   // Month navigation
   const handlePrevMonth = () => {
@@ -252,16 +251,29 @@ export default function TherapistArea() {
               Sessions for {selectedDate}:
             </Typography>
             <ul style={{ paddingRight: 0 }}>
-              {selectedDaySessions.sessions.map(session => (
-                <li key={session.patientSessionId} style={{ marginBottom: 8, listStyle: 'none' }}>
-                  <Typography>
-                    <b>{session.hour}</b> - {session.sessionType}<br />
-                    <span style={{ color: '#1976d2' }}>
-                      Patient: {getPatientName(session.patientId)}
-                    </span>
-                  </Typography>
-                </li>
-              ))}
+              {selectedDaySessions.sessions.map(session => {
+                const sessionDateTime = new Date(`${selectedDate}T${session.hour}`);
+                const now = new Date();
+                const isPast = sessionDateTime < now;
+
+                return (
+                  <li key={session.patientSessionId} style={{ marginBottom: 8, listStyle: 'none' }}>
+                    <Typography>
+                      <b>{session.hour}</b> - {session.sessionType}<br />
+                      <span style={{ color: '#1976d2' }}>
+                        Patient: {getPatientName(session.patientId)}
+                      </span>
+                    </Typography>
+                    {/* הצג משוב רק אם התור עבר */}
+                    {isPast && (
+                      <FeedbackForm
+                        sessionId={session.patientSessionId}
+                        initialFeedback={session.feedback}
+                      />
+                    )}
+                  </li>
+                );
+              })}
             </ul>
           </CardContent>
         </Card>

@@ -79,8 +79,15 @@ const PersonalArea = () => {
     doc.text('-------------------------------', 10, 45);
 
     appointments.forEach((appt, idx) => {
+      const therapist = therapists[appt.therapistId];
+      const therapistName =
+        therapist?.fullName ||
+        `${therapist?.title ? therapist.title + ' ' : ''}${therapist?.firstName || ''} ${therapist?.lastName || ''}`.trim() ||
+        appt.therapistId ||
+        'Unknown';
+
       doc.text(
-        `${idx + 1}. ${appt.sessionDate} ${appt.hour} - ${appt.therapistId || ''} (${appt.sessionType || ''})`,
+        `${idx + 1}. ${appt.sessionDate} ${appt.hour || ''} - ${therapistName} (${appt.sessionType || ''})`,
         10,
         55 + idx * 10
       );
@@ -88,7 +95,9 @@ const PersonalArea = () => {
 
     doc.text('Thank you for being with us!', 10, 65 + appointments.length * 10);
 
-    doc.save('treatment-summary.pdf');
+    // שם הקובץ: Tamar Bollak Treatment Summary.pdf
+    const fileName = `${user.firstName} ${user.lastName} Treatment Summary.pdf`;
+    doc.save(fileName);
   };
 
   if (!user) return null;
@@ -166,9 +175,10 @@ const PersonalArea = () => {
                 <TableCell sx={{ fontWeight: 700 }}>Time</TableCell>
                 <TableCell sx={{ fontWeight: 700 }}>Therapist</TableCell>
                 <TableCell sx={{ fontWeight: 700 }}>Session Type</TableCell>
+                <TableCell sx={{ fontWeight: 700 }}>Therapist Feedback</TableCell>
                 <TableCell align="center" sx={{ fontWeight: 700 }}>Actions</TableCell>
 
-    {/* <Box className="personal-area-container" sx={{ mt: 8 }}>
+                {/* <Box className="personal-area-container" sx={{ mt: 8 }}>
       <Typography variant="h4" className="personal-area-title" gutterBottom>
         Welcome, {user.firstName}!
       </Typography>
@@ -208,11 +218,14 @@ const PersonalArea = () => {
                 </TableRow>
               ) : (
                 appointments.map((row, idx) => {
+                  console.log(`Appointment ${idx} therapistId:`, row.therapistId);
                   const d = new Date(row.sessionDate);
                   const day = String(d.getDate()).padStart(2, '0');
                   const month = String(d.getMonth() + 1).padStart(2, '0');
                   const year = d.getFullYear();
                   const isPast = row.sessionDate && d < new Date(new Date().setHours(0, 0, 0, 0));
+                  const therapist = therapists[row.therapistId];
+
                   return (
                     <TableRow
                       key={idx}
@@ -229,9 +242,7 @@ const PersonalArea = () => {
                         {isPast ? (
                           <span style={{ color: '#aaa', fontWeight: 600 }}>Completed</span>
                         ) : (
-
                           <span style={{ color: '#1976d2', fontWeight: 600 }}>Upcoming</span>
-
                         )}
                       </TableCell>
                       <TableCell style={isPast ? { color: '#aaa' } : {}}>
@@ -244,10 +255,13 @@ const PersonalArea = () => {
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
                           <Link to={`/therapists#therapist-${row.therapistId}`}>
                             <img
-                              src={`http://localhost:5253/Images/therapists/${row.therapistId}.png`}
-                              alt={therapists[row.therapistId]?.fullName || 'Therapist'}
+                              src={
+                                row.therapistId
+                                  ? `http://localhost:5253/Images/therapists/${row.therapistId}.png`
+                                  : '/Images/therapists/default.png'
+                              }
+                              alt="Therapist"
                               style={{
-
                                 width: 44,
                                 height: 44,
                                 borderRadius: '50%',
@@ -259,26 +273,32 @@ const PersonalArea = () => {
                               }}
                               onMouseOver={e => (e.currentTarget.style.transform = 'scale(1.08)')}
                               onMouseOut={e => (e.currentTarget.style.transform = 'scale(1)')}
-
-                              onError={e => { e.target.src = '/default-avatar.png'; }}
+                              onError={e => {
+                                e.target.onerror = null;
+                                e.target.src = '/Images/therapists/default.png';
+                              }}
                             />
                           </Link>
                           <Link
                             to={`/therapists#therapist-${row.therapistId}`}
                             style={{
                               color: isPast ? '#aaa' : '#1976d2',
-
                               textDecoration: 'underline',
                               fontWeight: 500,
                               cursor: 'pointer'
                             }}
                           >
-                            {therapists[row.therapistId]?.fullName || 'Loading...'}
+                            {therapist?.FullName ||
+                              `${therapist?.title ? therapist.title + ' ' : ''}${therapist?.firstName || ''} ${therapist?.lastName || ''}`.trim() ||
+                              'Loading...'}
                           </Link>
                         </Box>
                       </TableCell>
                       <TableCell style={isPast ? { color: '#aaa' } : {}}>
                         {row.sessionType}
+                      </TableCell>
+                      <TableCell style={isPast ? { color: '#aaa' } : {}}>
+                        {row.therapistFeedback || row.feedback || '-'}
                       </TableCell>
                       <TableCell align="center">
                         <Button
