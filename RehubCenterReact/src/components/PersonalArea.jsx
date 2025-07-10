@@ -25,6 +25,7 @@ const PersonalArea = () => {
   const [appointments, setAppointments] = useState([]);
   const [loading, setLoading] = useState(true);
   const [openComments, setOpenComments] = useState(false);
+  const [openContact, setOpenContact] = useState(false);
 
 
   const fetchTherapist = async (therapistId) => {
@@ -468,7 +469,7 @@ const PersonalArea = () => {
             }}
           >
             <CardActionArea
-              onClick={() => alert('כאן תוכל ליצור קשר עם המטפל')}
+              onClick={() => setOpenContact(true)}
               sx={{ p: 2, display: 'flex', flexDirection: 'column', alignItems: 'center' }}
             >
               <SupportAgentIcon
@@ -547,6 +548,62 @@ const PersonalArea = () => {
                         {a.therapistFeedback || a.feedback}
                       </Typography>
                     </Box>
+                  );
+                })}
+            </Box>
+          )}
+        </DialogContent>
+      </Dialog>
+
+      {/* Dialog for Contact Therapist */}
+      <Dialog open={openContact} onClose={() => setOpenContact(false)}>
+        <DialogTitle>Select Therapist to Contact</DialogTitle>
+        <DialogContent>
+          {Object.values(therapists).length === 0 ? (
+            <Typography>No therapists found.</Typography>
+          ) : (
+            <Box>
+              {[...new Set(appointments.map(a => a.therapistId))]
+                .map((id, idx) => {
+                  const therapist = therapists[id];
+                  if (!therapist) return null;
+                  const therapistName =
+                    therapist.fullName ||
+                    `${therapist.title ? therapist.title + ' ' : ''}${therapist.firstName || ''} ${therapist.lastName || ''}`.trim() ||
+                    id ||
+                    'Unknown';
+                  const email = therapist.email || therapist.ContactInfo || therapist.contactInfo || '';
+                  return (
+                    <Button
+                      key={id}
+                      variant="outlined"
+                      sx={{ my: 1, mr: 2, minWidth: 220, justifyContent: 'flex-start' }}
+                      startIcon={
+                        <img
+                          src={
+                            id
+                              ? `http://localhost:5253/Images/therapists/${id}.png`
+                              : '/Images/therapists/default.png'
+                          }
+                          alt="Therapist"
+                          style={{
+                            width: 32,
+                            height: 32,
+                            borderRadius: '50%',
+                            objectFit: 'cover'
+                          }}
+                        />
+                      }
+                      onClick={() => {
+                        if (email) {
+                          window.location.href = `mailto:${email}`;
+                        } else {
+                          alert('No email found for this therapist.');
+                        }
+                      }}
+                    >
+                      {therapistName}
+                    </Button>
                   );
                 })}
             </Box>
