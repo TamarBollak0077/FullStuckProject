@@ -13,6 +13,7 @@ import './App.css';
 import TherapistDetails from './components/GetAllTherapistsDetails'; // או השם של הקומפוננטה שמציגה מטפל בודד
 import TherapistLogin from './components/TherapistLogin';
 import TherapistArea from './components/TherapistArea';
+import UpdateDetails from './components/UpdateDetails'; // Import the new component
 
 // עמודים נוספים
 // const About = () => (
@@ -50,6 +51,7 @@ function App() {
           <Route path="/signup-success" element={<SignupSuccess />} />
           <Route path="/therapist-login" element={<TherapistLogin />} />
           <Route path="/therapist-area/:therapistId" element={<TherapistArea />} />
+          <Route path="/update-details" element={<UpdateDetails />} /> {/* New route added here */}
         </Routes>
       </ForceHomeOnRefresh>
     </Router>

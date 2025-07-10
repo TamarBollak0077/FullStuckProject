@@ -181,7 +181,10 @@ export default function TherapistArea() {
           <Box key={`pad-${idx}`} />
         ))}
         {daysInMonth.map(day => {
-          const dateStr = day.toISOString().slice(0, 10);
+          const yearStr = day.getFullYear();
+          const monthStr = String(day.getMonth() + 1).padStart(2, '0');
+          const dayStr = String(day.getDate()).padStart(2, '0');
+          const dateStr = `${yearStr}-${monthStr}-${dayStr}`;
           const hasSession = datesWithSessions.includes(dateStr);
           const isToday =
             dateStr === new Date().toISOString().slice(0, 10) &&
@@ -255,6 +258,7 @@ export default function TherapistArea() {
                 const sessionDateTime = new Date(`${selectedDate}T${session.hour}`);
                 const now = new Date();
                 const isPast = sessionDateTime < now;
+                const feedbackExists = !!session.feedback;
 
                 return (
                   <li key={session.patientSessionId} style={{ marginBottom: 8, listStyle: 'none' }}>
@@ -264,8 +268,14 @@ export default function TherapistArea() {
                         Patient: {getPatientName(session.patientId)}
                       </span>
                     </Typography>
-                    {/* הצג משוב רק אם התור עבר */}
-                    {isPast && (
+                    {/* הצג את הפידבק אם קיים */}
+                    {isPast && feedbackExists && (
+                      <Typography sx={{ mt: 1, color: '#388e3c', fontStyle: 'italic', background: '#e8f5e9', p: 1, borderRadius: 1 }}>
+                        Feedback: {session.feedback}
+                      </Typography>
+                    )}
+                    {/* אם אין פידבק, הצג את הטופס */}
+                    {isPast && !feedbackExists && (
                       <FeedbackForm
                         sessionId={session.patientSessionId}
                         initialFeedback={session.feedback}

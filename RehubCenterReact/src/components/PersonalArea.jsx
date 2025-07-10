@@ -175,32 +175,7 @@ const PersonalArea = () => {
                 <TableCell sx={{ fontWeight: 700 }}>Time</TableCell>
                 <TableCell sx={{ fontWeight: 700 }}>Therapist</TableCell>
                 <TableCell sx={{ fontWeight: 700 }}>Session Type</TableCell>
-                <TableCell sx={{ fontWeight: 700 }}>Therapist Feedback</TableCell>
                 <TableCell align="center" sx={{ fontWeight: 700 }}>Actions</TableCell>
-
-                {/* <Box className="personal-area-container" sx={{ mt: 8 }}>
-      <Typography variant="h4" className="personal-area-title" gutterBottom>
-        Welcome, {user.firstName}!
-      </Typography>
-      <Typography variant="body1" className="personal-area-info" gutterBottom>
-        Here you can view your upcoming appointments, update your details, and get useful tips for your recovery journey.
-      </Typography>
-
-      <Box className="personal-area-table-box">
-        <Typography variant="h6" className="personal-area-table-title">
-          Your Appointments
-        </Typography>
-        <TableContainer component={Paper} className="personal-area-table-container">
-          <Table>
-            <TableHead>
-              <TableRow>
-                <TableCell>Scheduled</TableCell>
-                <TableCell>Date</TableCell>
-                <TableCell>Time</TableCell>
-                <TableCell>Therapist</TableCell>
-                <TableCell>Session Type</TableCell>
-                <TableCell align="center">Actions</TableCell> */}
-
               </TableRow>
             </TableHead>
             <TableBody>
@@ -218,7 +193,6 @@ const PersonalArea = () => {
                 </TableRow>
               ) : (
                 appointments.map((row, idx) => {
-                  console.log(`Appointment ${idx} therapistId:`, row.therapistId);
                   const d = new Date(row.sessionDate);
                   const day = String(d.getDate()).padStart(2, '0');
                   const month = String(d.getMonth() + 1).padStart(2, '0');
@@ -279,26 +253,24 @@ const PersonalArea = () => {
                               }}
                             />
                           </Link>
-                          <Link
-                            to={`/therapists#therapist-${row.therapistId}`}
-                            style={{
+                          <Typography
+                            sx={{
                               color: isPast ? '#aaa' : '#1976d2',
                               textDecoration: 'underline',
                               fontWeight: 500,
                               cursor: 'pointer'
                             }}
+                            component={Link}
+                            to={`/therapists#therapist-${row.therapistId}`}
                           >
-                            {therapist?.FullName ||
+                            {therapist?.fullName ||
                               `${therapist?.title ? therapist.title + ' ' : ''}${therapist?.firstName || ''} ${therapist?.lastName || ''}`.trim() ||
                               'Loading...'}
-                          </Link>
+                          </Typography>
                         </Box>
                       </TableCell>
                       <TableCell style={isPast ? { color: '#aaa' } : {}}>
                         {row.sessionType}
-                      </TableCell>
-                      <TableCell style={isPast ? { color: '#aaa' } : {}}>
-                        {row.therapistFeedback || row.feedback || '-'}
                       </TableCell>
                       <TableCell align="center">
                         <Button
@@ -553,8 +525,32 @@ const PersonalArea = () => {
       <Dialog open={openComments} onClose={() => setOpenComments(false)}>
         <DialogTitle>Therapist Comments</DialogTitle>
         <DialogContent>
-          {/* כאן תוכל להציג הודעות */}
-          <Typography>Here you will see therapist comments and progress updates.</Typography>
+          {appointments.filter(a => a.therapistFeedback || a.feedback).length === 0 ? (
+            <Typography>No therapist comments yet.</Typography>
+          ) : (
+            <Box>
+              {appointments
+                .filter(a => a.therapistFeedback || a.feedback)
+                .map((a, idx) => {
+                  const therapist = therapists[a.therapistId];
+                  const therapistName =
+                    therapist?.fullName ||
+                    `${therapist?.title ? therapist.title + ' ' : ''}${therapist?.firstName || ''} ${therapist?.lastName || ''}`.trim() ||
+                    a.therapistId ||
+                    'Unknown';
+                  return (
+                    <Box key={idx} sx={{ mb: 2, p: 2, background: '#f8fafc', borderRadius: 2 }}>
+                      <Typography sx={{ fontWeight: 600 }}>
+                        {a.sessionDate} {a.hour ? a.hour.substring(0,5) : ''} - {therapistName} ({a.sessionType})
+                      </Typography>
+                      <Typography sx={{ color: '#388e3c', fontStyle: 'italic', mt: 1 }}>
+                        {a.therapistFeedback || a.feedback}
+                      </Typography>
+                    </Box>
+                  );
+                })}
+            </Box>
+          )}
         </DialogContent>
       </Dialog>
 

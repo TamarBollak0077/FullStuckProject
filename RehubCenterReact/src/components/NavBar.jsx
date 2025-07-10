@@ -6,7 +6,6 @@ import Tooltip from '@mui/material/Tooltip';
 
 const navItems = [
   { label: 'Home', path: '/' },
-  { label: 'Personal Area', path: '/login', key: 'profile', icon: <AccountCircleIcon /> },
   {
     label: 'About',
     path: '/About',
@@ -19,8 +18,10 @@ const navItems = [
     ]
   },
   { label: 'Our Therapists', path: '/therapists', key: 'therapists' },
-  { label: 'Therapist Login', path: '/therapist-login', key: 'therapist-login' }, // ← הוסף שורה זו
   { label: 'Connection', path: '/signup', key: 'login' },
+  { label: 'Therapist Area', path: '/therapist-login', key: 'therapist-login' }, // ← הוסף שורה זו
+  { label: 'Personal Area', path: '/login', key: 'profile', icon: <AccountCircleIcon /> },
+  
 ];
 
 const NavBar = () => {
