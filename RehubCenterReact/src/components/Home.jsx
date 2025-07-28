@@ -12,6 +12,15 @@ import MenuIcon from '@mui/icons-material/Menu';
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
 import { useNavigate } from 'react-router-dom';
+import backgroundImage from'../Images/backgroundImage.jpg';
+import rat from'../Images/rat.jpg';
+import wow from'../Images/wow.jpg';
+import you from'../Images/you.jpg';
+import mountain from'../Images/mountain.jpg';
+import change from'../Images/change.jpg';
+import together from'../Images/together.jpg';
+import hi from'../Images/hi.jpg';
+import grow from'../Images/grow.jpg';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -28,7 +37,7 @@ const Home = () => {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          backgroundImage: `url('https://images.pexels.com/photos/461416/pexels-photo-461416.jpeg?auto=compress&w=1200&h=800&fit=crop')`,
+          backgroundImage: `url(${rat})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -86,19 +95,19 @@ const Home = () => {
       <Box sx={{ mb: 5, px: 2, mt: { xs: 2, md: -4 } }}>
         <Grid container spacing={3} justifyContent="center">
           {[{
-            img: "https://images.pexels.com/photos/3184421/pexels-photo-3184421.jpeg?auto=compress&w=400&h=180&fit=crop",
+            img: hi,
             alt: "Personal Guidance",
             icon: <EmojiPeopleIcon sx={{ fontSize: 38, color: '#1976d2', mb: 1 }} />,
             title: "Personal Guidance",
             desc: "Every person is unique. We tailor the rehabilitation process to your personal needs, strengths, and goals.",
           }, {
-            img: "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&w=400&h=180&fit=crop",
+            img: together,
             alt: "Support & Community",
             icon: <FavoriteIcon sx={{ fontSize: 38, color: '#e57373', mb: 1 }} />,
             title: "Support & Community",
             desc: "You are not alone. Our team and community will be with you every step, offering support and encouragement.",
           }, {
-            img: "https://images.pexels.com/photos/698500/pexels-photo-698500.jpeg?auto=compress&w=400&h=180&fit=crop",
+            img: wow,
             alt: "Hope & Renewal",
             icon: <WbSunnyIcon sx={{ fontSize: 38, color: '#ffb300', mb: 1 }} />,
             title: "Hope & Renewal",
@@ -149,7 +158,7 @@ const Home = () => {
         {/* What is addiction? */}
         <Box sx={{ mb: 5, p: 3, background: '#f8fafc', borderRadius: 3, boxShadow: '0 2px 12px #1976d211' }}>
           <img
-            src="https://images.pexels.com/photos/4101143/pexels-photo-4101143.jpeg?auto=compress&w=600&h=180&fit=crop"
+            src={you}
             alt="What is addiction"
             style={{ width: '100%', maxHeight: 160, objectFit: 'cover', borderRadius: 10, marginBottom: 16 }}
           />
@@ -172,7 +181,7 @@ const Home = () => {
         {/* How do you recover from addiction? */}
         <Box sx={{ mb: 5, p: 3, background: '#f8fafc', borderRadius: 3, boxShadow: '0 2px 12px #1976d211' }}>
           <img
-            src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&w=600&h=180&fit=crop"
+            src={mountain}
             alt="Recovery"
             style={{ width: '100%', maxHeight: 160, objectFit: 'cover', borderRadius: 10, marginBottom: 16 }}
           />
@@ -190,7 +199,7 @@ const Home = () => {
         {/* How is the actual rehabilitation done? */}
         <Box sx={{ mb: 5, p: 3, background: '#f8fafc', borderRadius: 3, boxShadow: '0 2px 12px #1976d211' }}>
           <img
-            src="https://images.pexels.com/photos/461049/pexels-photo-461049.jpeg?auto=compress&w=600&h=180&fit=crop"
+            src={change}
             alt="Supportive hands"
             style={{ width: '100%', maxHeight: 160, objectFit: 'cover', borderRadius: 10, marginBottom: 16 }}
           />
@@ -210,7 +219,7 @@ const Home = () => {
         {/* Why specifically 'Retorno'? */}
         <Box sx={{ p: 3, background: '#f8fafc', borderRadius: 3, boxShadow: '0 2px 12px #1976d211' }}>
           <img
-            src="https://images.pexels.com/photos/3184395/pexels-photo-3184395.jpeg?auto=compress&w=600&h=180&fit=crop"
+            src={grow}
             alt="Retorno"
             style={{ width: '100%', maxHeight: 160, objectFit: 'cover', borderRadius: 10, marginBottom: 16 }}
           />
